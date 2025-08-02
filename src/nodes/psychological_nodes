@@ -1,0 +1,306 @@
+from typing import Dict, Any
+from datetime import datetime
+import logging
+from ..tools.llm_client import PsychologicalLLMClient
+from ..state.agent_state import AgentState, ReasoningStep, Memory, Move, PsychologicalProfile
+import statistics
+
+logger = logging.getLogger(__name__)
+
+async def assess_psychological_state(state: AgentState) -> AgentState:
+    """Assess current psychological state of the agent"""
+    profile = state["psychological_profile"]
+    agent_id = state["agent_id"]
+    
+    # Calculate current emotional state based on recent experiences
+    recent_memories = state["recent_memories"][-5:] if state["recent_memories"] else []
+    
+    if recent_memories:
+        recent_impacts = [m.emotional_impact for m in recent_memories]
+        avg_impact = statistics.mean(recent_impacts)
+        
+        if avg_impact < -1.0:
+            profile.emotional_state = "traumatized"
+        elif avg_impact < -0.5:
+            profile.emotional_state = "hurt"
+        elif avg_impact > 1.0:
+            profile.emotional_state = "confident"
+        elif avg_impact > 0.5:
+            profile.emotional_state = "hopeful"
+        else:
+            profile.emotional_state = "neutral"
+    
+    # Update internal narrative based on experiences
+    await _update_internal_narrative(state)
+    
+    # Log psychological assessment
+    reasoning_step = ReasoningStep(
+        step_type="psychological_assessment",
+        content=f"Current state: {profile.emotional_state}, Trust: {profile.trust_level:.2f}, Loss sensitivity: {profile.loss_sensitivity:.2f}",
+        confidence=0.9,
+        timestamp=datetime.now(),
+        psychological_insight=f"Agent {agent_id} shows {profile.get_dominant_trait()} tendencies"
+    )
+    
+    state["reasoning_chain"].append(reasoning_step)
+    
+    return state
+
+async def update_confidence(state: AgentState) -> AgentState:
+    """Update decision confidence based on psychological factors"""
+    profile = state["psychological_profile"]
+    
+    # Adjust confidence based on psychological state
+    base_confidence = state["decision_confidence"]
+    
+    # Lower confidence if traumatized
+    if profile.emotional_state in ["traumatized", "hurt"]:
+        base_confidence *= 0.8
+    
+    # Lower confidence if high loss sensitivity (more uncertainty)
+    if profile.loss_sensitivity > 2.0:
+        base_confidence *= 0.9
+    
+    # Adjust based on trust level consistency
+    decision = state["current_decision"]
+    if decision == "COOPERATE" and profile.trust_level < 0.3:
+        base_confidence *= 0.7  # Conflicted decision
+    elif decision == "DEFECT" and profile.trust_level > 0.7:
+        base_confidence *= 0.7  # Conflicted decision
+    
+    state["decision_confidence"] = max(0.1, min(1.0, base_confidence))
+    
+    reasoning_step = ReasoningStep(
+        step_type="confidence_update",
+        content=f"Confidence adjusted to {state['decision_confidence']:.2%} based on psychological factors",
+        confidence=state["decision_confidence"],
+        timestamp=datetime.now(),
+        psychological_insight="Psychological factors affecting decision certainty"
+    )
+    
+    state["reasoning_chain"].append(reasoning_step)
+    
+    return state
+
+# Helper functions
+
+async def _update_internal_narrative(state: AgentState) -> None:
+    """Update agent's internal narrative based on experiences"""
+    profile = state["psychological_profile"]
+    recent_memories = state["recent_memories"][-10:] if state["recent_memories"] else []
+    
+    if not recent_memories:
+        profile.internal_narrative = "I'm just starting to understand this world."
+        return
+    
+    # Analyze recent experiences
+    cooperations = sum(1 for m in recent_memories if m.my_move == Move.COOPERATE)
+    betrayals = sum(1 for m in recent_memories if m.my_move == Move.COOPERATE and m.opponent_move == Move.DEFECT)
+    mutual_cooperations = sum(1 for m in recent_memories if m.my_move == Move.COOPERATE and m.opponent_move == Move.COOPERATE)
+    
+    if betrayals > mutual_cooperations and betrayals > 2:
+        profile.internal_narrative = "I keep getting hurt when I try to trust. Maybe I need to protect myself more."
+    elif mutual_cooperations > betrayals and mutual_cooperations > 3:
+        profile.internal_narrative = "Working together seems to be paying off. There might be good people here."
+    elif profile.loss_sensitivity > 2.5:
+        profile.internal_narrative = "Every loss feels so painful. I need to be more careful about risks."
+    else:
+        profile.internal_narrative = "I'm learning to navigate this complex social world, one interaction at a time."
+
+def _format_recent_memories(memories: list) -> str:
+    """Format recent memories for LLM context"""
+    if not memories:
+        return "No previous interactions to recall."
+    
+    formatted = []
+    for memory in memories[-5:]:  # Last 5 memories
+        outcome = "mutual cooperation" if memory.my_move == Move.COOPERATE and memory.opponent_move == Move.COOPERATE else \
+                 "I was betrayed" if memory.my_move == Move.COOPERATE and memory.opponent_move == Move.DEFECT else \
+                 "I exploited them" if memory.my_move == Move.DEFECT and memory.opponent_move == Move.COOPERATE else \
+                 "mutual defection"
+        
+        formatted.append(f"Round {memory.round_number}: {outcome} (payoff: {memory.my_payoff}, emotional impact: {memory.emotional_impact:.1f})")
+    
+    return "\n".join(formatted)
+    
+    logger.debug(f"Agent {agent_id} psychological assessment: {profile.get_dominant_trait()}")
+    
+    return state
+
+async def retrieve_relevant_memories(state: AgentState) -> AgentState:
+    """Retrieve memories relevant to current decision context"""
+    all_memories = state["recent_memories"]
+    current_round = state["current_round"]
+    
+    # Get recent memories (last 10 rounds)
+    recent_memories = [m for m in all_memories if current_round - m.round_number <= 10]
+    
+    # Get particularly impactful memories (high emotional impact)
+    impactful_memories = [m for m in all_memories if abs(m.emotional_impact) > 1.0]
+    
+    # Combine and deduplicate
+    relevant_memories = list({m.round_number: m for m in recent_memories + impactful_memories}.values())
+    relevant_memories.sort(key=lambda x: x.round_number, reverse=True)
+    
+    # Update state with relevant memories
+    state["recent_memories"] = relevant_memories[:15]  # Keep top 15
+    
+    # Create reasoning step
+    cooperation_count = sum(1 for m in relevant_memories if m.my_move == Move.COOPERATE)
+    betrayal_count = sum(1 for m in relevant_memories if m.my_move == Move.COOPERATE and m.opponent_move == Move.DEFECT)
+    
+    memory_summary = f"Retrieved {len(relevant_memories)} relevant memories. "
+    memory_summary += f"Recent cooperation rate: {cooperation_count/len(relevant_memories)*100:.1f}% " if relevant_memories else ""
+    memory_summary += f"Betrayals experienced: {betrayal_count}"
+    
+    reasoning_step = ReasoningStep(
+        step_type="memory_retrieval",
+        content=memory_summary,
+        confidence=0.85,
+        timestamp=datetime.now(),
+        psychological_insight=f"Memory patterns influence current psychological state"
+    )
+    
+    state["reasoning_chain"].append(reasoning_step)
+    
+    return state
+
+async def generate_psychological_reasoning(state: AgentState) -> AgentState:
+    """Generate LLM-based psychological reasoning"""
+    llm_client = PsychologicalLLMClient()
+    profile = state["psychological_profile"]
+    agent_id = state["agent_id"]
+    
+    # Build psychological context prompt
+    system_prompt = llm_client.generate_personality_prompt(state)
+    
+    user_prompt = f"""
+    Current situation: Round {state['current_round']} of the prisoner's dilemma.
+    Game context: {state['game_context']}
+    
+    Recent memory summary:
+    {_format_recent_memories(state['recent_memories'])}
+    
+    Given your psychological state and past experiences:
+    1. How do you feel about this situation?
+    2. What are your main concerns and hopes?
+    3. How do your past traumas influence your thinking?
+    4. What's your internal emotional response?
+    
+    Respond with genuine psychological reflection, not just strategic analysis.
+    Format your response as: PSYCHOLOGICAL_INSIGHT: [your insight]
+    """
+    
+    response = await llm_client.generate_psychological_response(
+        system_prompt=system_prompt,
+        user_prompt=user_prompt,
+        psychological_context={"profile": profile}
+    )
+    
+    # Add reasoning step
+    reasoning_step = ReasoningStep(
+        step_type="psychological_reasoning",
+        content=response["reasoning"],
+        confidence=response["confidence"],
+        timestamp=datetime.now(),
+        psychological_insight=response.get("psychological_insight")
+    )
+    
+    state["reasoning_chain"].append(reasoning_step)
+    
+    # Update emotional state based on reasoning
+    if response.get("emotional_state"):
+        profile.emotional_state = response["emotional_state"]
+    
+    return state
+
+async def apply_bias_lens(state: AgentState) -> AgentState:
+    """Apply loss aversion bias to decision making"""
+    llm_client = PsychologicalLLMClient()
+    profile = state["psychological_profile"]
+    agent_id = state["agent_id"]
+    
+    system_prompt = f"""
+    You are {agent_id} making a decision through your loss-averse psychological lens.
+    
+    Your loss sensitivity is {profile.loss_sensitivity:.2f}, meaning losses hurt you 
+    {profile.loss_sensitivity:.1f}x more than equivalent gains feel good.
+    
+    Your trust level is {profile.trust_level:.2f}, affecting how much you expect cooperation.
+    
+    When evaluating options, you naturally:
+    - Overweight potential losses
+    - Feel betrayal more intensely than success
+    - Use your emotional experiences to guide decisions
+    - Fear being the "sucker" in cooperation
+    """
+    
+    user_prompt = f"""
+    You must choose: COOPERATE or DEFECT
+    
+    Consider through your biased psychological lens:
+    - How would each outcome FEEL emotionally?
+    - What if you cooperate and get betrayed again?
+    - What if you defect and miss out on mutual cooperation?
+    - Which choice protects you from the worst emotional pain?
+    
+    Your reasoning should reflect your psychological biases, not pure rational analysis.
+    
+    Respond with:
+    DECISION: [COOPERATE/DEFECT]
+    CONFIDENCE: [0.0-1.0]
+    EXPECTED_EMOTIONAL_OUTCOME: [how you expect to feel]
+    BIAS_INFLUENCE: [how your loss aversion affected this choice]
+    REASONING: [your biased psychological reasoning]
+    """
+    
+    response = await llm_client.generate_psychological_response(
+        system_prompt=system_prompt,
+        user_prompt=user_prompt,
+        psychological_context={"profile": profile}
+    )
+    
+    state["current_decision"] = response["decision"]
+    state["decision_confidence"] = response["confidence"]
+    state["expected_outcomes"] = {
+        "emotional_outcome": response.get("expected_emotional_outcome", ""),
+        "bias_influence": response.get("bias_influence", "")
+    }
+    
+    # Add reasoning step
+    reasoning_step = ReasoningStep(
+        step_type="bias_application",
+        content=response["reasoning"],
+        confidence=response["confidence"],
+        timestamp=datetime.now(),
+        psychological_insight=response.get("bias_influence")
+    )
+    
+    state["reasoning_chain"].append(reasoning_step)
+    
+    return state
+
+async def make_decision(state: AgentState) -> AgentState:
+    """Make final decision based on psychological reasoning"""
+    
+    # Decision should already be set by bias application
+    if not state["current_decision"]:
+        # Fallback decision based on trust level
+        profile = state["psychological_profile"]
+        if profile.trust_level > 0.5:
+            state["current_decision"] = "COOPERATE"
+            state["decision_confidence"] = profile.trust_level
+        else:
+            state["current_decision"] = "DEFECT"
+            state["decision_confidence"] = 1.0 - profile.trust_level
+    
+    # Add final decision reasoning
+    reasoning_step = ReasoningStep(
+        step_type="final_decision",
+        content=f"Final decision: {state['current_decision']} (confidence: {state['decision_confidence']:.2%})",
+        confidence=state["decision_confidence"],
+        timestamp=datetime.now(),
+        psychological_insight="Decision made through psychological lens"
+    )
+    
+    state["reasoning_chain"].append(reasoning_step)

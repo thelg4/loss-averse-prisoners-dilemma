@@ -1,0 +1,61 @@
+experiments:
+  loss_aversion_study:
+    name: "When AI Agents Learn to Feel Pain: Emergent Loss Aversion"
+    
+    baseline_experiment:
+      agents:
+        - type: "rational"
+          count: 10
+        - type: "loss_averse"
+          count: 10
+          loss_coefficient: 2.25
+      tournaments:
+        rounds_per_match: 500
+        replications: 10
+    
+    emergent_experiment:
+      population_size: 20
+      generations: 100
+      interactions_per_generation: 50
+      rounds_per_interaction: 100
+      initial_psychology: "neutral"
+    
+    contagion_experiment:
+      population_size: 30
+      seed_agents:
+        - type: "paranoid"
+          count: 1
+          trust_level: 0.1
+          loss_sensitivity: 3.0
+        - type: "trusting"
+          count: 1
+          trust_level: 0.9
+          loss_sensitivity: 0.5
+        - type: "rational"
+          count: 1
+          trust_level: 0.5
+          loss_sensitivity: 1.0
+      
+      contagion_parameters:
+        base_transmission_rate: 0.1
+        influence_decay: 0.95
+        trait_mutation_rate: 0.05
+
+  llm_configuration:
+    primary_provider: "openai"
+    model: "gpt-4"
+    temperature: 0.1
+    max_tokens: 1000
+    fallback_provider: "anthropic"
+    
+  analysis_settings:
+    statistical_significance: 0.05
+    effect_size_threshold: 0.3
+    confidence_interval: 0.95
+    multiple_testing_correction: "bonferroni"
+    
+  output_settings:
+    save_raw_data: true
+    generate_visualizations: true
+    export_for_publication: true
+    real_time_monitoring: true
