@@ -44,85 +44,6 @@ async def assess_psychological_state(state: AgentState) -> AgentState:
     
     state["reasoning_chain"].append(reasoning_step)
     
-    return state
-
-async def update_confidence(state: AgentState) -> AgentState:
-    """Update decision confidence based on psychological factors"""
-    profile = state["psychological_profile"]
-    
-    # Adjust confidence based on psychological state
-    base_confidence = state["decision_confidence"]
-    
-    # Lower confidence if traumatized
-    if profile.emotional_state in ["traumatized", "hurt"]:
-        base_confidence *= 0.8
-    
-    # Lower confidence if high loss sensitivity (more uncertainty)
-    if profile.loss_sensitivity > 2.0:
-        base_confidence *= 0.9
-    
-    # Adjust based on trust level consistency
-    decision = state["current_decision"]
-    if decision == "COOPERATE" and profile.trust_level < 0.3:
-        base_confidence *= 0.7  # Conflicted decision
-    elif decision == "DEFECT" and profile.trust_level > 0.7:
-        base_confidence *= 0.7  # Conflicted decision
-    
-    state["decision_confidence"] = max(0.1, min(1.0, base_confidence))
-    
-    reasoning_step = ReasoningStep(
-        step_type="confidence_update",
-        content=f"Confidence adjusted to {state['decision_confidence']:.2%} based on psychological factors",
-        confidence=state["decision_confidence"],
-        timestamp=datetime.now(),
-        psychological_insight="Psychological factors affecting decision certainty"
-    )
-    
-    state["reasoning_chain"].append(reasoning_step)
-    
-    return state
-
-# Helper functions
-
-async def _update_internal_narrative(state: AgentState) -> None:
-    """Update agent's internal narrative based on experiences"""
-    profile = state["psychological_profile"]
-    recent_memories = state["recent_memories"][-10:] if state["recent_memories"] else []
-    
-    if not recent_memories:
-        profile.internal_narrative = "I'm just starting to understand this world."
-        return
-    
-    # Analyze recent experiences
-    cooperations = sum(1 for m in recent_memories if m.my_move == Move.COOPERATE)
-    betrayals = sum(1 for m in recent_memories if m.my_move == Move.COOPERATE and m.opponent_move == Move.DEFECT)
-    mutual_cooperations = sum(1 for m in recent_memories if m.my_move == Move.COOPERATE and m.opponent_move == Move.COOPERATE)
-    
-    if betrayals > mutual_cooperations and betrayals > 2:
-        profile.internal_narrative = "I keep getting hurt when I try to trust. Maybe I need to protect myself more."
-    elif mutual_cooperations > betrayals and mutual_cooperations > 3:
-        profile.internal_narrative = "Working together seems to be paying off. There might be good people here."
-    elif profile.loss_sensitivity > 2.5:
-        profile.internal_narrative = "Every loss feels so painful. I need to be more careful about risks."
-    else:
-        profile.internal_narrative = "I'm learning to navigate this complex social world, one interaction at a time."
-
-def _format_recent_memories(memories: list) -> str:
-    """Format recent memories for LLM context"""
-    if not memories:
-        return "No previous interactions to recall."
-    
-    formatted = []
-    for memory in memories[-5:]:  # Last 5 memories
-        outcome = "mutual cooperation" if memory.my_move == Move.COOPERATE and memory.opponent_move == Move.COOPERATE else \
-                 "I was betrayed" if memory.my_move == Move.COOPERATE and memory.opponent_move == Move.DEFECT else \
-                 "I exploited them" if memory.my_move == Move.DEFECT and memory.opponent_move == Move.COOPERATE else \
-                 "mutual defection"
-        
-        formatted.append(f"Round {memory.round_number}: {outcome} (payoff: {memory.my_payoff}, emotional impact: {memory.emotional_impact:.1f})")
-    
-    return "\n".join(formatted)
-    
     logger.debug(f"Agent {agent_id} psychological assessment: {profile.get_dominant_trait()}")
     
     return state
@@ -304,3 +225,82 @@ async def make_decision(state: AgentState) -> AgentState:
     )
     
     state["reasoning_chain"].append(reasoning_step)
+    
+    return state
+
+async def update_confidence(state: AgentState) -> AgentState:
+    """Update decision confidence based on psychological factors"""
+    profile = state["psychological_profile"]
+    
+    # Adjust confidence based on psychological state
+    base_confidence = state["decision_confidence"]
+    
+    # Lower confidence if traumatized
+    if profile.emotional_state in ["traumatized", "hurt"]:
+        base_confidence *= 0.8
+    
+    # Lower confidence if high loss sensitivity (more uncertainty)
+    if profile.loss_sensitivity > 2.0:
+        base_confidence *= 0.9
+    
+    # Adjust based on trust level consistency
+    decision = state["current_decision"]
+    if decision == "COOPERATE" and profile.trust_level < 0.3:
+        base_confidence *= 0.7  # Conflicted decision
+    elif decision == "DEFECT" and profile.trust_level > 0.7:
+        base_confidence *= 0.7  # Conflicted decision
+    
+    state["decision_confidence"] = max(0.1, min(1.0, base_confidence))
+    
+    reasoning_step = ReasoningStep(
+        step_type="confidence_update",
+        content=f"Confidence adjusted to {state['decision_confidence']:.2%} based on psychological factors",
+        confidence=state["decision_confidence"],
+        timestamp=datetime.now(),
+        psychological_insight="Psychological factors affecting decision certainty"
+    )
+    
+    state["reasoning_chain"].append(reasoning_step)
+    
+    return state
+
+# Helper functions
+
+async def _update_internal_narrative(state: AgentState) -> None:
+    """Update agent's internal narrative based on experiences"""
+    profile = state["psychological_profile"]
+    recent_memories = state["recent_memories"][-10:] if state["recent_memories"] else []
+    
+    if not recent_memories:
+        profile.internal_narrative = "I'm just starting to understand this world."
+        return
+    
+    # Analyze recent experiences
+    cooperations = sum(1 for m in recent_memories if m.my_move == Move.COOPERATE)
+    betrayals = sum(1 for m in recent_memories if m.my_move == Move.COOPERATE and m.opponent_move == Move.DEFECT)
+    mutual_cooperations = sum(1 for m in recent_memories if m.my_move == Move.COOPERATE and m.opponent_move == Move.COOPERATE)
+    
+    if betrayals > mutual_cooperations and betrayals > 2:
+        profile.internal_narrative = "I keep getting hurt when I try to trust. Maybe I need to protect myself more."
+    elif mutual_cooperations > betrayals and mutual_cooperations > 3:
+        profile.internal_narrative = "Working together seems to be paying off. There might be good people here."
+    elif profile.loss_sensitivity > 2.5:
+        profile.internal_narrative = "Every loss feels so painful. I need to be more careful about risks."
+    else:
+        profile.internal_narrative = "I'm learning to navigate this complex social world, one interaction at a time."
+
+def _format_recent_memories(memories: list) -> str:
+    """Format recent memories for LLM context"""
+    if not memories:
+        return "No previous interactions to recall."
+    
+    formatted = []
+    for memory in memories[-5:]:  # Last 5 memories
+        outcome = "mutual cooperation" if memory.my_move == Move.COOPERATE and memory.opponent_move == Move.COOPERATE else \
+                 "I was betrayed" if memory.my_move == Move.COOPERATE and memory.opponent_move == Move.DEFECT else \
+                 "I exploited them" if memory.my_move == Move.DEFECT and memory.opponent_move == Move.COOPERATE else \
+                 "mutual defection"
+        
+        formatted.append(f"Round {memory.round_number}: {outcome} (payoff: {memory.my_payoff}, emotional impact: {memory.emotional_impact:.1f})")
+    
+    return "\n".join(formatted)
