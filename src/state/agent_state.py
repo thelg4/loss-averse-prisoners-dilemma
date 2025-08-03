@@ -1,6 +1,10 @@
 from typing_extensions import TypedDict, Annotated
 from typing import List, Dict, Any, Optional
-from langgraph.graph import add_messages
+import operator
+
+# Only import add_messages if you actually have message fields
+# from langgraph.graph import add_messages
+
 from pydantic import BaseModel, Field
 from datetime import datetime
 from enum import Enum
@@ -58,9 +62,9 @@ class AgentState(TypedDict):
     current_round: int
     game_context: Dict[str, Any]
     
-    # LangGraph message handling
-    reasoning_chain: Annotated[List[ReasoningStep], add_messages]
-    psychological_observations: Annotated[List[Dict], add_messages]
+    # Use operator.add for lists that should be appended to (NOT add_messages)
+    reasoning_chain: Annotated[List[ReasoningStep], operator.add]
+    psychological_observations: Annotated[List[Dict], operator.add]
     
     # Decision making
     current_decision: Optional[str]

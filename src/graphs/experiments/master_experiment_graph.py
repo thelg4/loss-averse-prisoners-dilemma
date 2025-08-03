@@ -10,8 +10,9 @@ from ...nodes.experiment_nodes import (
 from ...state.experiment_state import ExperimentState
 
 def create_master_experiment_graph() -> StateGraph:
-    """Orchestrate all experiments for the research"""
+    """Create (but don't compile) the master experiment graph builder"""
     
+    # Create the graph builder (not compiled yet)
     workflow = StateGraph(ExperimentState)
     
     workflow.add_node("initialize", initialize_experiment)
@@ -29,4 +30,6 @@ def create_master_experiment_graph() -> StateGraph:
     workflow.add_edge("analyze", "report")
     workflow.add_edge("report", END)
     
-    return workflow.compile()
+    # IMPORTANT: Return the uncompiled builder, not a compiled graph
+    # The checkpointing system will compile it with the appropriate checkpointer
+    return workflow

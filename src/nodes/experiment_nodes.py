@@ -212,13 +212,43 @@ async def analyze_results(state: ExperimentState) -> ExperimentState:
     
     return state
 
-async def generate_report(state: ExperimentState) -> ExperimentState:
-    """Generate final experimental report"""
+# async def generate_report(state: ExperimentState) -> ExperimentState:
+#     """Generate final experimental report"""
+    
+#     logger.info("Generating final experimental report")
+#     state["current_phase"] = "report_generation"
+    
+#     # Create comprehensive report
+#     report = {
+#         "experiment_metadata": {
+#             "experiment_id": state["experiment_id"],
+#             "start_time": state["start_time"].isoformat(),
+#             "completion_time": datetime.now().isoformat(),
+#             "total_duration": str(datetime.now() - state["start_time"]),
+#             "configuration": state["experiment_config"]
+#         },
+#         "baseline_findings": _summarize_baseline_results(state.get("baseline_results", [])),
+#         "emergent_findings": _summarize_emergent_results(state.get("emergent_results", [])),
+#         "contagion_findings": _summarize_contagion_results(state.get("contagion_results", [])),
+#         "statistical_analysis": state.get("statistical_results", {}),
+#         "key_insights": _extract_key_insights(state),
+#         "publication_ready_summary": _create_publication_summary(state)
+#     }
+    
+#     state["results"].append(report)
+#     state["current_phase"] = "completed"
+#     state["progress_percentage"] = 100.0
+    
+#     logger.info(f"Experiment {state['experiment_id']} completed successfully")
+    
+#     return state
+
+async def generate_report(state: ExperimentState) -> Dict[str, Any]:
+    """Generate final experimental report - FIXED VERSION"""
     
     logger.info("Generating final experimental report")
-    state["current_phase"] = "report_generation"
     
-    # Create comprehensive report
+    # Create comprehensive report - same as before
     report = {
         "experiment_metadata": {
             "experiment_id": state["experiment_id"],
@@ -235,13 +265,21 @@ async def generate_report(state: ExperimentState) -> ExperimentState:
         "publication_ready_summary": _create_publication_summary(state)
     }
     
-    state["results"].append(report)
-    state["current_phase"] = "completed"
-    state["progress_percentage"] = 100.0
+    # CRITICAL FIX: Return only the state field updates that match your ExperimentState schema
+    # Don't try to modify state["results"] directly in the return
+    current_results = state.get("results", [])
+    updated_results = current_results + [report]  # Create new list with the report added
     
     logger.info(f"Experiment {state['experiment_id']} completed successfully")
     
-    return state
+    # Return only the fields that exist in your ExperimentState TypedDict
+    return {
+        "results": updated_results,              # ✅ Updated results list
+        "current_phase": "completed",            # ✅ Phase update
+        "progress_percentage": 100.0,            # ✅ Progress update
+        "current_time": datetime.now(),          # ✅ Time update
+        # Add any other fields that exist in your ExperimentState schema
+    }
 
 # Helper functions
 

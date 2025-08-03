@@ -1,14 +1,19 @@
 from typing_extensions import TypedDict, Annotated
 from typing import List, Dict, Any
-from langgraph.graph import add_messages
+import operator
+
+# Do NOT import add_messages for non-message data
 from .agent_state import AgentState
 
 class PopulationState(TypedDict):
     """State for population-level workflows"""
     population: List[AgentState]
     generation: int
-    interaction_results: Annotated[List[Dict], add_messages]
-    contagion_events: Annotated[List[Dict], add_messages]
+    
+    # Use operator.add for regular lists (NOT add_messages)
+    interaction_results: Annotated[List[Dict], operator.add]
+    contagion_events: Annotated[List[Dict], operator.add]
+    
     population_metrics: Dict[str, float]
     
     # Experiment control
