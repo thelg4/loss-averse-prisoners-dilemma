@@ -1,0 +1,5324 @@
+{
+  "generation_timeline": [
+    {
+      "generation": 0,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653655"
+    },
+    {
+      "generation": 1,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653683"
+    },
+    {
+      "generation": 2,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653703"
+    },
+    {
+      "generation": 3,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653723"
+    },
+    {
+      "generation": 4,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653742"
+    },
+    {
+      "generation": 5,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653761"
+    },
+    {
+      "generation": 6,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653779"
+    },
+    {
+      "generation": 7,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653799"
+    },
+    {
+      "generation": 8,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653817"
+    },
+    {
+      "generation": 9,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653836"
+    },
+    {
+      "generation": 10,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653857"
+    },
+    {
+      "generation": 11,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653879"
+    },
+    {
+      "generation": 12,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653901"
+    },
+    {
+      "generation": 13,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653925"
+    },
+    {
+      "generation": 14,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653948"
+    },
+    {
+      "generation": 15,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653969"
+    },
+    {
+      "generation": 16,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.653991"
+    },
+    {
+      "generation": 17,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654012"
+    },
+    {
+      "generation": 18,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654034"
+    },
+    {
+      "generation": 19,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654056"
+    },
+    {
+      "generation": 20,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654077"
+    },
+    {
+      "generation": 21,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654102"
+    },
+    {
+      "generation": 22,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654125"
+    },
+    {
+      "generation": 23,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654148"
+    },
+    {
+      "generation": 24,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654170"
+    },
+    {
+      "generation": 25,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654193"
+    },
+    {
+      "generation": 26,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654215"
+    },
+    {
+      "generation": 27,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654237"
+    },
+    {
+      "generation": 28,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654258"
+    },
+    {
+      "generation": 29,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654279"
+    },
+    {
+      "generation": 30,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654300"
+    },
+    {
+      "generation": 31,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654322"
+    },
+    {
+      "generation": 32,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654344"
+    },
+    {
+      "generation": 33,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654366"
+    },
+    {
+      "generation": 34,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654388"
+    },
+    {
+      "generation": 35,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654408"
+    },
+    {
+      "generation": 36,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654431"
+    },
+    {
+      "generation": 37,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654452"
+    },
+    {
+      "generation": 38,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654474"
+    },
+    {
+      "generation": 39,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654496"
+    },
+    {
+      "generation": 40,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654519"
+    },
+    {
+      "generation": 41,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654541"
+    },
+    {
+      "generation": 42,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654562"
+    },
+    {
+      "generation": 43,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654584"
+    },
+    {
+      "generation": 44,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654606"
+    },
+    {
+      "generation": 45,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654626"
+    },
+    {
+      "generation": 46,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654650"
+    },
+    {
+      "generation": 47,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654672"
+    },
+    {
+      "generation": 48,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654692"
+    },
+    {
+      "generation": 49,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654710"
+    },
+    {
+      "generation": 50,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654727"
+    },
+    {
+      "generation": 51,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654745"
+    },
+    {
+      "generation": 52,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654762"
+    },
+    {
+      "generation": 53,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654780"
+    },
+    {
+      "generation": 54,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654797"
+    },
+    {
+      "generation": 55,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654814"
+    },
+    {
+      "generation": 56,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654831"
+    },
+    {
+      "generation": 57,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654848"
+    },
+    {
+      "generation": 58,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654867"
+    },
+    {
+      "generation": 59,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.654884"
+    },
+    {
+      "generation": 60,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655046"
+    },
+    {
+      "generation": 61,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655071"
+    },
+    {
+      "generation": 62,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655092"
+    },
+    {
+      "generation": 63,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655115"
+    },
+    {
+      "generation": 64,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655138"
+    },
+    {
+      "generation": 65,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655160"
+    },
+    {
+      "generation": 66,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655183"
+    },
+    {
+      "generation": 67,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655205"
+    },
+    {
+      "generation": 68,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655231"
+    },
+    {
+      "generation": 69,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655251"
+    },
+    {
+      "generation": 70,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655274"
+    },
+    {
+      "generation": 71,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655295"
+    },
+    {
+      "generation": 72,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655317"
+    },
+    {
+      "generation": 73,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655339"
+    },
+    {
+      "generation": 74,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655362"
+    },
+    {
+      "generation": 75,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655383"
+    },
+    {
+      "generation": 76,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655401"
+    },
+    {
+      "generation": 77,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655423"
+    },
+    {
+      "generation": 78,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655443"
+    },
+    {
+      "generation": 79,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655543"
+    },
+    {
+      "generation": 80,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655603"
+    },
+    {
+      "generation": 81,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655628"
+    },
+    {
+      "generation": 82,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655649"
+    },
+    {
+      "generation": 83,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655668"
+    },
+    {
+      "generation": 84,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655687"
+    },
+    {
+      "generation": 85,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655705"
+    },
+    {
+      "generation": 86,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655724"
+    },
+    {
+      "generation": 87,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655742"
+    },
+    {
+      "generation": 88,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655761"
+    },
+    {
+      "generation": 89,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655778"
+    },
+    {
+      "generation": 90,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655796"
+    },
+    {
+      "generation": 91,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655814"
+    },
+    {
+      "generation": 92,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655832"
+    },
+    {
+      "generation": 93,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655854"
+    },
+    {
+      "generation": 94,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655872"
+    },
+    {
+      "generation": 95,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655889"
+    },
+    {
+      "generation": 96,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655908"
+    },
+    {
+      "generation": 97,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655926"
+    },
+    {
+      "generation": 98,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655944"
+    },
+    {
+      "generation": 99,
+      "population_size": 20,
+      "avg_trust_level": 0.5498980120158963,
+      "avg_loss_sensitivity": 1.1793929624243367,
+      "dominant_traits": [
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "balanced",
+        "trusting",
+        "loss_averse"
+      ],
+      "timestamp": "2025-08-04T09:34:57.655961"
+    }
+  ],
+  "evolution_metrics": {
+    "trust_evolution": {
+      "initial_level": 0.5498980120158963,
+      "final_level": 0.5498980120158963,
+      "total_change": 0.0,
+      "trend_slope": -3.1000000593800117e-18,
+      "volatility": 1.1102230246251565e-16,
+      "direction": "stable"
+    },
+    "loss_sensitivity_evolution": {
+      "initial_level": 1.1793929624243367,
+      "final_level": 1.1793929624243367,
+      "total_change": 0.0,
+      "trend_slope": -1.2400000237520047e-17,
+      "volatility": 0.0,
+      "direction": "stable"
+    },
+    "evolution_summary": {
+      "total_generations": 100,
+      "major_trust_shifts": 0,
+      "major_loss_shifts": 0
+    }
+  },
+  "trait_evolution": {
+    "trait_timeline": {
+      "0": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "1": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "2": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "3": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "4": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "5": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "6": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "7": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "8": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "9": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "10": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "11": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "12": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "13": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "14": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "15": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "16": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "17": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "18": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "19": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "20": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "21": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "22": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "23": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "24": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "25": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "26": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "27": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "28": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "29": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "30": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "31": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "32": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "33": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "34": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "35": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "36": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "37": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "38": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "39": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "40": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "41": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "42": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "43": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "44": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "45": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "46": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "47": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "48": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "49": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "50": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "51": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "52": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "53": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "54": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "55": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "56": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "57": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "58": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "59": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "60": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "61": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "62": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "63": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "64": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "65": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "66": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "67": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "68": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "69": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "70": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "71": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "72": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "73": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "74": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "75": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "76": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "77": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "78": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "79": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "80": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "81": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "82": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "83": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "84": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "85": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "86": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "87": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "88": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "89": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "90": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "91": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "92": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "93": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "94": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "95": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "96": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "97": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "98": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      },
+      "99": {
+        "trusting": 5,
+        "balanced": 13,
+        "loss_averse": 2
+      }
+    },
+    "trait_emergence_patterns": {
+      "loss_averse": {
+        "first_appearance": 0,
+        "peak_generation": 0,
+        "peak_count": 2,
+        "trajectory": [
+          [
+            0,
+            2
+          ],
+          [
+            1,
+            2
+          ],
+          [
+            2,
+            2
+          ],
+          [
+            3,
+            2
+          ],
+          [
+            4,
+            2
+          ],
+          [
+            5,
+            2
+          ],
+          [
+            6,
+            2
+          ],
+          [
+            7,
+            2
+          ],
+          [
+            8,
+            2
+          ],
+          [
+            9,
+            2
+          ],
+          [
+            10,
+            2
+          ],
+          [
+            11,
+            2
+          ],
+          [
+            12,
+            2
+          ],
+          [
+            13,
+            2
+          ],
+          [
+            14,
+            2
+          ],
+          [
+            15,
+            2
+          ],
+          [
+            16,
+            2
+          ],
+          [
+            17,
+            2
+          ],
+          [
+            18,
+            2
+          ],
+          [
+            19,
+            2
+          ],
+          [
+            20,
+            2
+          ],
+          [
+            21,
+            2
+          ],
+          [
+            22,
+            2
+          ],
+          [
+            23,
+            2
+          ],
+          [
+            24,
+            2
+          ],
+          [
+            25,
+            2
+          ],
+          [
+            26,
+            2
+          ],
+          [
+            27,
+            2
+          ],
+          [
+            28,
+            2
+          ],
+          [
+            29,
+            2
+          ],
+          [
+            30,
+            2
+          ],
+          [
+            31,
+            2
+          ],
+          [
+            32,
+            2
+          ],
+          [
+            33,
+            2
+          ],
+          [
+            34,
+            2
+          ],
+          [
+            35,
+            2
+          ],
+          [
+            36,
+            2
+          ],
+          [
+            37,
+            2
+          ],
+          [
+            38,
+            2
+          ],
+          [
+            39,
+            2
+          ],
+          [
+            40,
+            2
+          ],
+          [
+            41,
+            2
+          ],
+          [
+            42,
+            2
+          ],
+          [
+            43,
+            2
+          ],
+          [
+            44,
+            2
+          ],
+          [
+            45,
+            2
+          ],
+          [
+            46,
+            2
+          ],
+          [
+            47,
+            2
+          ],
+          [
+            48,
+            2
+          ],
+          [
+            49,
+            2
+          ],
+          [
+            50,
+            2
+          ],
+          [
+            51,
+            2
+          ],
+          [
+            52,
+            2
+          ],
+          [
+            53,
+            2
+          ],
+          [
+            54,
+            2
+          ],
+          [
+            55,
+            2
+          ],
+          [
+            56,
+            2
+          ],
+          [
+            57,
+            2
+          ],
+          [
+            58,
+            2
+          ],
+          [
+            59,
+            2
+          ],
+          [
+            60,
+            2
+          ],
+          [
+            61,
+            2
+          ],
+          [
+            62,
+            2
+          ],
+          [
+            63,
+            2
+          ],
+          [
+            64,
+            2
+          ],
+          [
+            65,
+            2
+          ],
+          [
+            66,
+            2
+          ],
+          [
+            67,
+            2
+          ],
+          [
+            68,
+            2
+          ],
+          [
+            69,
+            2
+          ],
+          [
+            70,
+            2
+          ],
+          [
+            71,
+            2
+          ],
+          [
+            72,
+            2
+          ],
+          [
+            73,
+            2
+          ],
+          [
+            74,
+            2
+          ],
+          [
+            75,
+            2
+          ],
+          [
+            76,
+            2
+          ],
+          [
+            77,
+            2
+          ],
+          [
+            78,
+            2
+          ],
+          [
+            79,
+            2
+          ],
+          [
+            80,
+            2
+          ],
+          [
+            81,
+            2
+          ],
+          [
+            82,
+            2
+          ],
+          [
+            83,
+            2
+          ],
+          [
+            84,
+            2
+          ],
+          [
+            85,
+            2
+          ],
+          [
+            86,
+            2
+          ],
+          [
+            87,
+            2
+          ],
+          [
+            88,
+            2
+          ],
+          [
+            89,
+            2
+          ],
+          [
+            90,
+            2
+          ],
+          [
+            91,
+            2
+          ],
+          [
+            92,
+            2
+          ],
+          [
+            93,
+            2
+          ],
+          [
+            94,
+            2
+          ],
+          [
+            95,
+            2
+          ],
+          [
+            96,
+            2
+          ],
+          [
+            97,
+            2
+          ],
+          [
+            98,
+            2
+          ],
+          [
+            99,
+            2
+          ]
+        ]
+      },
+      "trusting": {
+        "first_appearance": 0,
+        "peak_generation": 0,
+        "peak_count": 5,
+        "trajectory": [
+          [
+            0,
+            5
+          ],
+          [
+            1,
+            5
+          ],
+          [
+            2,
+            5
+          ],
+          [
+            3,
+            5
+          ],
+          [
+            4,
+            5
+          ],
+          [
+            5,
+            5
+          ],
+          [
+            6,
+            5
+          ],
+          [
+            7,
+            5
+          ],
+          [
+            8,
+            5
+          ],
+          [
+            9,
+            5
+          ],
+          [
+            10,
+            5
+          ],
+          [
+            11,
+            5
+          ],
+          [
+            12,
+            5
+          ],
+          [
+            13,
+            5
+          ],
+          [
+            14,
+            5
+          ],
+          [
+            15,
+            5
+          ],
+          [
+            16,
+            5
+          ],
+          [
+            17,
+            5
+          ],
+          [
+            18,
+            5
+          ],
+          [
+            19,
+            5
+          ],
+          [
+            20,
+            5
+          ],
+          [
+            21,
+            5
+          ],
+          [
+            22,
+            5
+          ],
+          [
+            23,
+            5
+          ],
+          [
+            24,
+            5
+          ],
+          [
+            25,
+            5
+          ],
+          [
+            26,
+            5
+          ],
+          [
+            27,
+            5
+          ],
+          [
+            28,
+            5
+          ],
+          [
+            29,
+            5
+          ],
+          [
+            30,
+            5
+          ],
+          [
+            31,
+            5
+          ],
+          [
+            32,
+            5
+          ],
+          [
+            33,
+            5
+          ],
+          [
+            34,
+            5
+          ],
+          [
+            35,
+            5
+          ],
+          [
+            36,
+            5
+          ],
+          [
+            37,
+            5
+          ],
+          [
+            38,
+            5
+          ],
+          [
+            39,
+            5
+          ],
+          [
+            40,
+            5
+          ],
+          [
+            41,
+            5
+          ],
+          [
+            42,
+            5
+          ],
+          [
+            43,
+            5
+          ],
+          [
+            44,
+            5
+          ],
+          [
+            45,
+            5
+          ],
+          [
+            46,
+            5
+          ],
+          [
+            47,
+            5
+          ],
+          [
+            48,
+            5
+          ],
+          [
+            49,
+            5
+          ],
+          [
+            50,
+            5
+          ],
+          [
+            51,
+            5
+          ],
+          [
+            52,
+            5
+          ],
+          [
+            53,
+            5
+          ],
+          [
+            54,
+            5
+          ],
+          [
+            55,
+            5
+          ],
+          [
+            56,
+            5
+          ],
+          [
+            57,
+            5
+          ],
+          [
+            58,
+            5
+          ],
+          [
+            59,
+            5
+          ],
+          [
+            60,
+            5
+          ],
+          [
+            61,
+            5
+          ],
+          [
+            62,
+            5
+          ],
+          [
+            63,
+            5
+          ],
+          [
+            64,
+            5
+          ],
+          [
+            65,
+            5
+          ],
+          [
+            66,
+            5
+          ],
+          [
+            67,
+            5
+          ],
+          [
+            68,
+            5
+          ],
+          [
+            69,
+            5
+          ],
+          [
+            70,
+            5
+          ],
+          [
+            71,
+            5
+          ],
+          [
+            72,
+            5
+          ],
+          [
+            73,
+            5
+          ],
+          [
+            74,
+            5
+          ],
+          [
+            75,
+            5
+          ],
+          [
+            76,
+            5
+          ],
+          [
+            77,
+            5
+          ],
+          [
+            78,
+            5
+          ],
+          [
+            79,
+            5
+          ],
+          [
+            80,
+            5
+          ],
+          [
+            81,
+            5
+          ],
+          [
+            82,
+            5
+          ],
+          [
+            83,
+            5
+          ],
+          [
+            84,
+            5
+          ],
+          [
+            85,
+            5
+          ],
+          [
+            86,
+            5
+          ],
+          [
+            87,
+            5
+          ],
+          [
+            88,
+            5
+          ],
+          [
+            89,
+            5
+          ],
+          [
+            90,
+            5
+          ],
+          [
+            91,
+            5
+          ],
+          [
+            92,
+            5
+          ],
+          [
+            93,
+            5
+          ],
+          [
+            94,
+            5
+          ],
+          [
+            95,
+            5
+          ],
+          [
+            96,
+            5
+          ],
+          [
+            97,
+            5
+          ],
+          [
+            98,
+            5
+          ],
+          [
+            99,
+            5
+          ]
+        ]
+      },
+      "balanced": {
+        "first_appearance": 0,
+        "peak_generation": 0,
+        "peak_count": 13,
+        "trajectory": [
+          [
+            0,
+            13
+          ],
+          [
+            1,
+            13
+          ],
+          [
+            2,
+            13
+          ],
+          [
+            3,
+            13
+          ],
+          [
+            4,
+            13
+          ],
+          [
+            5,
+            13
+          ],
+          [
+            6,
+            13
+          ],
+          [
+            7,
+            13
+          ],
+          [
+            8,
+            13
+          ],
+          [
+            9,
+            13
+          ],
+          [
+            10,
+            13
+          ],
+          [
+            11,
+            13
+          ],
+          [
+            12,
+            13
+          ],
+          [
+            13,
+            13
+          ],
+          [
+            14,
+            13
+          ],
+          [
+            15,
+            13
+          ],
+          [
+            16,
+            13
+          ],
+          [
+            17,
+            13
+          ],
+          [
+            18,
+            13
+          ],
+          [
+            19,
+            13
+          ],
+          [
+            20,
+            13
+          ],
+          [
+            21,
+            13
+          ],
+          [
+            22,
+            13
+          ],
+          [
+            23,
+            13
+          ],
+          [
+            24,
+            13
+          ],
+          [
+            25,
+            13
+          ],
+          [
+            26,
+            13
+          ],
+          [
+            27,
+            13
+          ],
+          [
+            28,
+            13
+          ],
+          [
+            29,
+            13
+          ],
+          [
+            30,
+            13
+          ],
+          [
+            31,
+            13
+          ],
+          [
+            32,
+            13
+          ],
+          [
+            33,
+            13
+          ],
+          [
+            34,
+            13
+          ],
+          [
+            35,
+            13
+          ],
+          [
+            36,
+            13
+          ],
+          [
+            37,
+            13
+          ],
+          [
+            38,
+            13
+          ],
+          [
+            39,
+            13
+          ],
+          [
+            40,
+            13
+          ],
+          [
+            41,
+            13
+          ],
+          [
+            42,
+            13
+          ],
+          [
+            43,
+            13
+          ],
+          [
+            44,
+            13
+          ],
+          [
+            45,
+            13
+          ],
+          [
+            46,
+            13
+          ],
+          [
+            47,
+            13
+          ],
+          [
+            48,
+            13
+          ],
+          [
+            49,
+            13
+          ],
+          [
+            50,
+            13
+          ],
+          [
+            51,
+            13
+          ],
+          [
+            52,
+            13
+          ],
+          [
+            53,
+            13
+          ],
+          [
+            54,
+            13
+          ],
+          [
+            55,
+            13
+          ],
+          [
+            56,
+            13
+          ],
+          [
+            57,
+            13
+          ],
+          [
+            58,
+            13
+          ],
+          [
+            59,
+            13
+          ],
+          [
+            60,
+            13
+          ],
+          [
+            61,
+            13
+          ],
+          [
+            62,
+            13
+          ],
+          [
+            63,
+            13
+          ],
+          [
+            64,
+            13
+          ],
+          [
+            65,
+            13
+          ],
+          [
+            66,
+            13
+          ],
+          [
+            67,
+            13
+          ],
+          [
+            68,
+            13
+          ],
+          [
+            69,
+            13
+          ],
+          [
+            70,
+            13
+          ],
+          [
+            71,
+            13
+          ],
+          [
+            72,
+            13
+          ],
+          [
+            73,
+            13
+          ],
+          [
+            74,
+            13
+          ],
+          [
+            75,
+            13
+          ],
+          [
+            76,
+            13
+          ],
+          [
+            77,
+            13
+          ],
+          [
+            78,
+            13
+          ],
+          [
+            79,
+            13
+          ],
+          [
+            80,
+            13
+          ],
+          [
+            81,
+            13
+          ],
+          [
+            82,
+            13
+          ],
+          [
+            83,
+            13
+          ],
+          [
+            84,
+            13
+          ],
+          [
+            85,
+            13
+          ],
+          [
+            86,
+            13
+          ],
+          [
+            87,
+            13
+          ],
+          [
+            88,
+            13
+          ],
+          [
+            89,
+            13
+          ],
+          [
+            90,
+            13
+          ],
+          [
+            91,
+            13
+          ],
+          [
+            92,
+            13
+          ],
+          [
+            93,
+            13
+          ],
+          [
+            94,
+            13
+          ],
+          [
+            95,
+            13
+          ],
+          [
+            96,
+            13
+          ],
+          [
+            97,
+            13
+          ],
+          [
+            98,
+            13
+          ],
+          [
+            99,
+            13
+          ]
+        ]
+      }
+    },
+    "dominant_trait_evolution": {
+      "total_shifts": 0,
+      "shift_events": [],
+      "shift_frequency": 0.0
+    },
+    "trait_diversity": {
+      "diversity_timeline": [
+        {
+          "generation": 0,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 1,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 2,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 3,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 4,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 5,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 6,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 7,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 8,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 9,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 10,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 11,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 12,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 13,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 14,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 15,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 16,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 17,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 18,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 19,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 20,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 21,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 22,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 23,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 24,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 25,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 26,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 27,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 28,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 29,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 30,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 31,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 32,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 33,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 34,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 35,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 36,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 37,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 38,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 39,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 40,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 41,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 42,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 43,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 44,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 45,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 46,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 47,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 48,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 49,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 50,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 51,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 52,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 53,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 54,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 55,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 56,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 57,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 58,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 59,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 60,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 61,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 62,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 63,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 64,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 65,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 66,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 67,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 68,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 69,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 70,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 71,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 72,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 73,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 74,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 75,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 76,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 77,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 78,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 79,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 80,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 81,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 82,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 83,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 84,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 85,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 86,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 87,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 88,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 89,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 90,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 91,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 92,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 93,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 94,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 95,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 96,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 97,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 98,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        },
+        {
+          "generation": 99,
+          "shannon_diversity": 0.8568409950394724,
+          "simple_diversity": 3,
+          "dominant_trait_proportion": 0.65
+        }
+      ],
+      "avg_shannon_diversity": 0.8568409950394726,
+      "diversity_trend": "decreasing"
+    }
+  },
+  "psychological_trends": {
+    "evolution_phases": [
+      {
+        "phase_type": "stabilization",
+        "start_generation": 1,
+        "end_generation": 99,
+        "duration": 99
+      }
+    ],
+    "cyclical_patterns": {
+      "trust_cycles": {
+        "cycles_detected": true,
+        "potential_cycles": [
+          {
+            "cycle_length": 9,
+            "strength": 1.0
+          },
+          {
+            "cycle_length": 38,
+            "strength": 1.0
+          }
+        ],
+        "strongest_cycle": {
+          "cycle_length": 9,
+          "strength": 1.0
+        }
+      },
+      "loss_sensitivity_cycles": {
+        "cycles_detected": false,
+        "potential_cycles": [],
+        "strongest_cycle": null
+      }
+    },
+    "stability_analysis": {
+      "trust_stability": {
+        "average_volatility": 0.0,
+        "volatility_trend": "decreasing",
+        "most_stable_period": "0"
+      },
+      "loss_sensitivity_stability": {
+        "average_volatility": 2.220446049250313e-16,
+        "volatility_trend": "decreasing",
+        "most_stable_period": "0"
+      }
+    },
+    "convergence_analysis": {
+      "trust_convergence": {
+        "converging": true,
+        "recent_range": 0.0,
+        "convergence_value": 0.5498980120158963
+      },
+      "loss_sensitivity_convergence": {
+        "converging": true,
+        "recent_range": 0.0,
+        "convergence_value": 1.1793929624243367
+      },
+      "overall_convergence": true
+    }
+  }
+}

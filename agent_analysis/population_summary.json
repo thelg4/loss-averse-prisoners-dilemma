@@ -1,7 +1,7 @@
 {
   "experiment_summary": {
-    "total_agents": 20,
-    "analysis_timestamp": "2025-08-03T22:10:58.329590"
+    "total_agents": 2,
+    "analysis_timestamp": "2025-08-04T10:43:15.129367"
   },
   "population_psychology": {
     "average_trust_level": 0.5,
@@ -25,6 +25,6 @@
     "average_trauma_count": 0.0
   },
   "agent_types": {
-    "emergent_bias": 20
+    "emergent_bias": 2
   }
 }

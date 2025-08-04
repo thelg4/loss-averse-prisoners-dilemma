@@ -477,22 +477,105 @@ import random
 from ..state.experiment_state import ExperimentState
 from ..state.population_state import PopulationState
 from ..state.agent_state import AgentState, PsychologicalProfile
+from ..game.prisoner_dilemma import (
+    simulate_baseline_tournament_real,
+    run_generation_interactions_real,
+    update_population_metrics_real
+)
 from ..graphs.agents.decision_graph import create_agent_decision_graph
 from ..graphs.agents.evolution_graph import create_psychological_evolution_graph
 from ..graphs.population.contagion_graph import create_contagion_graph
 
+
 logger = logging.getLogger(__name__)
 
+# async def initialize_experiment(state: ExperimentState) -> Dict[str, Any]:
+#     """Initialize the master experiment with all components"""
+    
+#     experiment_id = state["experiment_id"]
+#     config = state["experiment_config"]
+    
+#     logger.info(f"Initializing experiment {experiment_id}")
+    
+#     # Initialize population
+#     population_size = state["population_size"]
+#     population = []
+    
+#     # Create diverse initial population
+#     personality_types = ["optimistic", "cautious", "analytical", "intuitive", "trusting", "skeptical", "balanced"]
+    
+#     for i in range(population_size):
+#         personality = personality_types[i % len(personality_types)]
+        
+#         # Create agent with diverse starting psychology
+#         agent_state = AgentState(
+#             agent_id=f"agent_{i:03d}",
+#             psychological_profile=_create_initial_profile(personality),
+#             current_round=0,
+#             game_context={},
+#             reasoning_chain=[],
+#             psychological_observations=[],
+#             current_decision=None,
+#             decision_confidence=0.5,
+#             expected_outcomes={},
+#             recent_memories=[],
+#             trauma_triggers=[],
+#             recovery_progress=1.0,
+#             agent_type="emergent_bias",
+#             total_score=0.0,
+#             reference_point=0.0
+#         )
+        
+#         population.append(agent_state)
+    
+#     # Initialize population state
+#     population_state = PopulationState(
+#         population=population,
+#         generation=0,
+#         interaction_results=[],
+#         contagion_events=[],
+#         population_metrics={},
+#         current_experiment=experiment_id,
+#         experiment_parameters=config,
+#         should_continue=True,
+#         psychological_distribution={},
+#         dominant_traits=[],
+#         avg_trust_level=0.5,
+#         avg_loss_sensitivity=1.0,
+#         avg_cooperation_rate=0.0,
+#         successful_agents=[],
+#         struggling_agents=[],
+#         trait_transmission_matrix={}
+#     )
+    
+#     # Estimate completion time
+#     estimated_duration = timedelta(hours=2)  # Rough estimate
+    
+#     logger.info(f"Initialized population of {population_size} agents with diverse personalities")
+    
+#     # FIXED: Return only the fields that need to be updated
+#     return {
+#         "population_state": population_state,
+#         "current_phase": "initialized",
+#         "current_time": datetime.now(),
+#         "estimated_completion": datetime.now() + estimated_duration,
+#         "progress_percentage": 0.0
+#     }
+
 async def initialize_experiment(state: ExperimentState) -> Dict[str, Any]:
-    """Initialize the master experiment with all components"""
+    """Initialize the master experiment with all components - FIXED VERSION"""
     
     experiment_id = state["experiment_id"]
     config = state["experiment_config"]
     
     logger.info(f"Initializing experiment {experiment_id}")
     
-    # Initialize population
-    population_size = state["population_size"]
+    # READ population size from config
+    emergent_config = config.get("emergent_experiment", {})
+    population_size = emergent_config.get("population_size", 20)  # Get from config, not state
+    
+    logger.info(f"Using population size: {population_size} from config")
+    
     population = []
     
     # Create diverse initial population
@@ -530,7 +613,7 @@ async def initialize_experiment(state: ExperimentState) -> Dict[str, Any]:
         contagion_events=[],
         population_metrics={},
         current_experiment=experiment_id,
-        experiment_parameters=config,
+        experiment_parameters=config,  # Store full config here
         should_continue=True,
         psychological_distribution={},
         dominant_traits=[],
@@ -547,17 +630,54 @@ async def initialize_experiment(state: ExperimentState) -> Dict[str, Any]:
     
     logger.info(f"Initialized population of {population_size} agents with diverse personalities")
     
-    # FIXED: Return only the fields that need to be updated
     return {
         "population_state": population_state,
         "current_phase": "initialized",
         "current_time": datetime.now(),
         "estimated_completion": datetime.now() + estimated_duration,
-        "progress_percentage": 0.0
+        "progress_percentage": 0.0,
+        # Also store config values in the main state for easy access
+        "total_generations": emergent_config.get("generations", 100),
+        "interactions_per_generation": emergent_config.get("interactions_per_generation", 50),
+        "rounds_per_interaction": emergent_config.get("rounds_per_interaction", 100),
+        "population_size": population_size
     }
 
+# async def run_baseline_study(state: ExperimentState) -> Dict[str, Any]:
+#     """Run baseline study with rational vs loss-averse agents"""
+    
+#     logger.info("Running baseline study phase")
+    
+#     # Create baseline agents for comparison
+#     rational_agent = _create_rational_baseline_agent()
+#     loss_averse_agent = _create_loss_averse_baseline_agent()
+    
+#     baseline_results = []
+    
+#     # Run multiple tournament replications
+#     num_replications = 10
+#     rounds_per_tournament = 500
+    
+#     for replication in range(num_replications):
+#         # Simulate tournament between baseline agents
+#         tournament_result = await _simulate_baseline_tournament(
+#             rational_agent, loss_averse_agent, rounds_per_tournament, replication
+#         )
+#         baseline_results.append(tournament_result)
+    
+#     logger.info(f"Completed baseline study with {len(baseline_results)} tournament replications")
+    
+#     # FIXED: Return only the fields that need to be updated
+#     return {
+#         "baseline_results": baseline_results,  # This will be ADDED to existing baseline_results
+#         "baseline_complete": True,
+#         "current_phase": "baseline_study",
+#         "progress_percentage": 25.0,
+#         "current_time": datetime.now()
+#     }
+
 async def run_baseline_study(state: ExperimentState) -> Dict[str, Any]:
-    """Run baseline study with rational vs loss-averse agents"""
+    """Run baseline study with rational vs loss-averse agents - FIXED VERSION"""
     
     logger.info("Running baseline study phase")
     
@@ -567,9 +687,16 @@ async def run_baseline_study(state: ExperimentState) -> Dict[str, Any]:
     
     baseline_results = []
     
-    # Run multiple tournament replications
-    num_replications = 10
-    rounds_per_tournament = 500
+    # READ FROM CONFIG instead of hardcoding
+    config = state["experiment_config"]
+    baseline_config = config.get("baseline_experiment", {})
+    tournament_config = baseline_config.get("tournaments", {})
+    
+    # Get actual configuration values with fallbacks
+    num_replications = tournament_config.get("replications", 2)  # Default to 2 for testing
+    rounds_per_tournament = tournament_config.get("rounds_per_match", 20)  # Default to 20 for testing
+    
+    logger.info(f"Running {num_replications} replications with {rounds_per_tournament} rounds each")
     
     for replication in range(num_replications):
         # Simulate tournament between baseline agents
@@ -577,12 +704,13 @@ async def run_baseline_study(state: ExperimentState) -> Dict[str, Any]:
             rational_agent, loss_averse_agent, rounds_per_tournament, replication
         )
         baseline_results.append(tournament_result)
+        
+        logger.info(f"Completed baseline replication {replication + 1}/{num_replications}")
     
     logger.info(f"Completed baseline study with {len(baseline_results)} tournament replications")
     
-    # FIXED: Return only the fields that need to be updated
     return {
-        "baseline_results": baseline_results,  # This will be ADDED to existing baseline_results
+        "baseline_results": baseline_results,
         "baseline_complete": True,
         "current_phase": "baseline_study",
         "progress_percentage": 25.0,
@@ -819,19 +947,22 @@ def _create_loss_averse_baseline_agent() -> AgentState:
         reference_point=0.0
     )
 
+# async def _simulate_baseline_tournament(agent1, agent2, rounds, replication_id):
+#     """Simulate a tournament between baseline agents"""
+#     # This would use the decision graphs to run a full tournament
+#     # For now, return a mock result
+#     return {
+#         "replication_id": replication_id,
+#         "agent1_final_score": random.uniform(1500, 2500),
+#         "agent2_final_score": random.uniform(1200, 2200),
+#         "agent1_cooperation_rate": random.uniform(0.3, 0.7),
+#         "agent2_cooperation_rate": random.uniform(0.2, 0.5),
+#         "total_rounds": rounds,
+#         "timestamp": datetime.now().isoformat()
+#     }
 async def _simulate_baseline_tournament(agent1, agent2, rounds, replication_id):
-    """Simulate a tournament between baseline agents"""
-    # This would use the decision graphs to run a full tournament
-    # For now, return a mock result
-    return {
-        "replication_id": replication_id,
-        "agent1_final_score": random.uniform(1500, 2500),
-        "agent2_final_score": random.uniform(1200, 2200),
-        "agent1_cooperation_rate": random.uniform(0.3, 0.7),
-        "agent2_cooperation_rate": random.uniform(0.2, 0.5),
-        "total_rounds": rounds,
-        "timestamp": datetime.now().isoformat()
-    }
+    """Actually simulate a tournament between baseline agents"""
+    return await simulate_baseline_tournament_real(agent1, agent2, rounds, replication_id)
 
 async def _take_population_snapshot(population_state):
     """Take a snapshot of the current population state"""
@@ -849,16 +980,66 @@ async def _take_population_snapshot(population_state):
         "timestamp": datetime.now().isoformat()
     }
 
+# async def _run_generation_interactions(population_state, num_interactions):
+#     """Run interactions within a generation"""
+#     # This would use the decision and evolution graphs
+#     # For now, return mock results
+#     return {
+#         "total_interactions": num_interactions,
+#         "avg_cooperation_rate": random.uniform(0.3, 0.7),
+#         "trait_changes": random.randint(5, 15),
+#         "timestamp": datetime.now().isoformat()
+#     }
+
+def _update_population_metrics(population_state):
+    """Update population-level metrics after interactions"""
+    
+    population = population_state["population"]
+    
+    if not population:
+        return
+    
+    # Calculate averages
+    trust_levels = []
+    loss_sensitivities = []
+    total_scores = []
+    
+    for agent in population:
+        profile = agent["psychological_profile"]
+        trust_levels.append(profile.trust_level)
+        loss_sensitivities.append(profile.loss_sensitivity)
+        total_scores.append(agent.get("total_score", 0))
+    
+    population_state["avg_trust_level"] = sum(trust_levels) / len(trust_levels)
+    population_state["avg_loss_sensitivity"] = sum(loss_sensitivities) / len(loss_sensitivities)
+    
+    # Update trait distribution
+    trait_counts = {}
+    for agent in population:
+        trait = agent["psychological_profile"].get_dominant_trait()
+        trait_counts[trait] = trait_counts.get(trait, 0) + 1
+    
+    population_state["psychological_distribution"] = trait_counts
+    population_state["dominant_traits"] = [
+        trait for trait, count in trait_counts.items() 
+        if count >= len(population) * 0.1  # At least 10% of population
+    ]
+    
+    # Identify successful and struggling agents
+    if total_scores:
+        avg_score = sum(total_scores) / len(total_scores)
+        population_state["successful_agents"] = [
+            agent["agent_id"] for agent in population 
+            if agent.get("total_score", 0) > avg_score * 1.2
+        ]
+        population_state["struggling_agents"] = [
+            agent["agent_id"] for agent in population 
+            if agent.get("total_score", 0) < avg_score * 0.8
+        ]
+
 async def _run_generation_interactions(population_state, num_interactions):
-    """Run interactions within a generation"""
-    # This would use the decision and evolution graphs
-    # For now, return mock results
-    return {
-        "total_interactions": num_interactions,
-        "avg_cooperation_rate": random.uniform(0.3, 0.7),
-        "trait_changes": random.randint(5, 15),
-        "timestamp": datetime.now().isoformat()
-    }
+    """Actually run interactions within a generation"""
+    return await run_generation_interactions_real(population_state, num_interactions)
 
 def _analyze_contagion_patterns(contagion_events):
     """Analyze patterns in contagion events"""
