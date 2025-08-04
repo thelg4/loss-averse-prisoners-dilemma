@@ -1,0 +1,36 @@
+{
+  "agent_id": "agent_006",
+  "agent_type": "emergent_bias",
+  "final_psychological_profile": {},
+  "total_score": 0.0,
+  "recovery_progress": 1.0,
+  "complete_reasoning_chain": [],
+  "all_memories": [],
+  "trauma_triggers": [],
+  "psychological_observations": [],
+  "decision_history": [],
+  "psychological_evolution": {
+    "final_trust_level": 0.5,
+    "final_loss_sensitivity": 1.0,
+    "final_emotional_state": "unknown",
+    "final_internal_narrative": "",
+    "learned_heuristics": [],
+    "dominant_trait": "balanced",
+    "evolution_events": [],
+    "trauma_count": 0
+  },
+  "interaction_summary": {
+    "total_interactions": 0
+  },
+  "trauma_analysis": {
+    "trauma_count": 0,
+    "analysis": "No significant traumas recorded"
+  },
+  "learning_progression": {
+    "total_learning_events": 0,
+    "learned_heuristics": [],
+    "learning_timeline": [],
+    "adaptation_rate": 0.1,
+    "learning_effectiveness": 0.0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "experiment_summary": {
+    "total_agents": 20,
+    "analysis_timestamp": "2025-08-03T22:10:58.329590"
+  },
+  "population_psychology": {
+    "average_trust_level": 0.5,
+    "average_loss_sensitivity": 1.0,
+    "trust_level_range": [
+      0.5,
+      0.5
+    ],
+    "loss_sensitivity_range": [
+      1.0,
+      1.0
+    ]
+  },
+  "behavioral_patterns": {
+    "average_cooperation_rate": 0.0,
+    "cooperation_rate_range": [
+      0.0,
+      0.0
+    ],
+    "agents_with_trauma": 0,
+    "average_trauma_count": 0.0
+  },
+  "agent_types": {
+    "emergent_bias": 20
+  }
+}

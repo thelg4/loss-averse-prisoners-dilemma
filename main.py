@@ -10,6 +10,10 @@ from src.utils.checkpointing import run_experiment_with_async_checkpointing, Exp
 from src.utils.streaming import ExperimentStreamer
 from src.utils.parallel import ExperimentScheduler
 
+from dotenv import load_dotenv
+    
+load_dotenv()
+
 # Setup logging
 logging.basicConfig(
     level=logging.INFO,
@@ -205,9 +209,6 @@ async def main():
 if __name__ == "__main__":
     # Set up environment
     import os
-    from dotenv import load_dotenv
-    
-    load_dotenv()
     
     # Verify required environment variables
     required_vars = ["OPENAI_API_KEY"]  # Add ANTHROPIC_API_KEY if using Anthropic
