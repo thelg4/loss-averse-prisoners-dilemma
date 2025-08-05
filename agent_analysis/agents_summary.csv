@@ -1,3 +1,3 @@
 agent_id,agent_type,final_trust_level,final_loss_sensitivity,dominant_trait,emotional_state,total_score,total_interactions,cooperation_rate,betrayals_experienced,mutual_cooperations,average_payoff,average_emotional_impact,trauma_count,recovery_progress,learned_heuristics_count,total_reasoning_steps,psychological_evolution_events
-agent_000,emergent_bias,0.5,1.0,balanced,unknown,2.0,2,0.0,0,0,0.0,0.0,0,1.0,0,10,0
-agent_001,emergent_bias,0.5,1.0,balanced,unknown,2.0,2,0.0,0,0,0.0,0.0,0,1.0,0,10,0
+agent_000,emergent_bias,0.5,1.0,balanced,unknown,3.0,4,0.0,0,0,0.0,0.0,0,0.393129206893687,0,10,0
+agent_001,emergent_bias,0.5,1.0,balanced,unknown,3.0,4,0.0,0,0,0.0,0.0,0,0.0,0,10,0

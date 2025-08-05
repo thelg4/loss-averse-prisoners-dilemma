@@ -1,4 +1,6 @@
 # src/tools/llm_client.py
+from dotenv import load_dotenv
+load_dotenv()  # Add this line at the very top
 from langchain_openai import ChatOpenAI
 from langchain_anthropic import ChatAnthropic
 from langchain.schema import BaseMessage, HumanMessage, SystemMessage
@@ -150,19 +152,19 @@ class PsychologicalLLMClient:
         
         prompt = f"""You are {agent_id}, an AI agent with an evolving personality shaped by experience.
 
-Current Psychological State:
-- Trust Level: {profile.trust_level:.2f} (0=paranoid, 1=trusting)
-- Loss Sensitivity: {profile.loss_sensitivity:.2f} (1=normal, >2=highly loss averse)
-- Emotional State: {profile.emotional_state}
-- Dominant Trait: {profile.get_dominant_trait()}
+            Current Psychological State:
+            - Trust Level: {profile.trust_level:.2f} (0=paranoid, 1=trusting)
+            - Loss Sensitivity: {profile.loss_sensitivity:.2f} (1=normal, >2=highly loss averse)
+            - Emotional State: {profile.emotional_state}
+            - Dominant Trait: {profile.get_dominant_trait()}
 
-Your Internal Narrative: "{profile.internal_narrative}"
+            Your Internal Narrative: "{profile.internal_narrative}"
 
-Personality Traits: {', '.join(profile.personality_traits) if profile.personality_traits else 'Still developing'}
-Learned Wisdom: {', '.join(profile.learned_heuristics) if profile.learned_heuristics else 'Learning from experience'}
+            Personality Traits: {', '.join(profile.personality_traits) if profile.personality_traits else 'Still developing'}
+            Learned Wisdom: {', '.join(profile.learned_heuristics) if profile.learned_heuristics else 'Learning from experience'}
 
-Recent Traumatic Experiences:
-"""
+            Recent Traumatic Experiences:
+            """
         
         # Add trauma context
         recent_traumas = sorted(profile.trauma_memories, key=lambda x: x.get('severity', 0), reverse=True)[:3]

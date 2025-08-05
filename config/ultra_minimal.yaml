@@ -1,6 +1,7 @@
+# config/ultra_minimal_test.yaml
 experiments:
-  ultra_minimal:
-    name: "Ultra Minimal - 3 rounds only"
+  llm_test:
+    name: "LLM Integration Test - Ultra Minimal"
     
     baseline_experiment:
       agents:
@@ -10,14 +11,14 @@ experiments:
           count: 1
           loss_coefficient: 2.25
       tournaments:
-        rounds_per_match: 3    # Just 3 rounds!
-        replications: 1        # Just 1 replication
+        rounds_per_match: 3     # Just 3 rounds!
+        replications: 1         # Just 1 replication
     
     emergent_experiment:
-      population_size: 2       # Just 2 agents
-      generations: 1           # Just 1 generation  
+      population_size: 2        # Just 2 agents
+      generations: 2            # Just 2 generations  
       interactions_per_generation: 1  # Just 1 interaction
-      rounds_per_interaction: 2       # Just 2 rounds
+      rounds_per_interaction: 3       # Just 3 rounds
       initial_psychology: "neutral"
     
     contagion_experiment:
@@ -35,7 +36,7 @@ experiments:
 
   llm_configuration:
     primary_provider: "openai"
-    model: "gpt-4o-mini"
+    model: "gpt-4o-mini"  # Use cheapest model
     temperature: 0.1
-    max_tokens: 100  # Even smaller responses
+    max_tokens: 100       # Very short responses
     fallback_provider: "anthropic"
