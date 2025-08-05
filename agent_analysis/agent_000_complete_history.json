@@ -2,10 +2,24 @@
   "agent_id": "agent_000",
   "agent_type": "emergent_bias",
   "final_psychological_profile": {},
-  "total_score": 0.0,
+  "total_score": 2.0,
   "recovery_progress": 1.0,
-  "complete_reasoning_chain": [],
-  "all_memories": [],
+  "complete_reasoning_chain": [
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {},
+    {}
+  ],
+  "all_memories": [
+    {},
+    {}
+  ],
   "trauma_triggers": [],
   "psychological_observations": [],
   "decision_history": [],
@@ -20,7 +34,17 @@
     "trauma_count": 0
   },
   "interaction_summary": {
-    "total_interactions": 0
+    "total_interactions": 2,
+    "cooperations": 0,
+    "defections": 0,
+    "cooperation_rate": 0.0,
+    "betrayals_experienced": 0,
+    "mutual_cooperations": 0,
+    "total_payoff": 0,
+    "average_payoff": 0.0,
+    "average_emotional_impact": 0.0,
+    "most_painful_experience": 0,
+    "most_positive_experience": 0
   },
   "trauma_analysis": {
     "trauma_count": 0,
