@@ -1,0 +1,3 @@
+agent_id,agent_type,total_score,trust_level,loss_sensitivity,emotional_state,total_interactions,cooperations,defections,cooperation_rate,betrayals_experienced,total_payoff,average_payoff,reasoning_steps
+agent_000,emergent_bias,2.0,0.7284914891706915,0.9998349492977489,neutral,5,2,3,0.4,2,3.0,0.6,10
+agent_001,emergent_bias,7.0,0.36418392141270955,1.5223910185344267,neutral,4,0,4,0.0,0,12.0,3.0,10

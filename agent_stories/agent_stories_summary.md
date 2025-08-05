@@ -1,44 +1,38 @@
 # Agent Stories Collection
 
-*Generated on 2025-08-04 19:18:40*
+*Generated on 2025-08-04 21:43:53*
 
 ## Collection Overview
 
 **Total Agents:** 2
 
-### Story Arc Distribution
-
-- **Steady Character**: 2 agents (100.0%)
-
-### Most Common Themes
-
-- **Protective Isolation**: 2 instances
-
 ## Individual Agent Stories
 
-### agent_000: The Lone Wolf
+### agent_000: The Wounded Idealist
 
-**Arc Type:** Steady Character
+**Arc Type:** Resilient Idealist
 
-**Themes:** Protective Isolation
+**Themes:** Trust And Betrayal, Resilient Optimism
 
-agent_000 represents the quiet strength of consistency. Through 2 interactions, they maintained their core values, adapting without losing their essential self. Their 0.0% cooperation rate reflects not dramatic change, but the power of steady principles in an uncertain world.
+agent_000 participated in 5 social interactions. They tried cooperating 40.0% of the time, but were betrayed 2 times. Remarkably, they maintained high trust (0.73) despite setbacks. 
 
-**Key Moments:**
-- *Withdrawal From Trust*: The decision to protect oneself by avoiding vulnerability.
+**Key Insights:**
+- Experienced 2 betrayals but kept trying to cooperate
+- Maintained high trust despite negative experiences
 
 ---
 
-### agent_001: The Lone Wolf
+### agent_001: The Strategic Exploiter
 
-**Arc Type:** Steady Character
+**Arc Type:** Strategic Pragmatist
 
-**Themes:** Protective Isolation
+**Themes:** Protective Isolation, Fear Of Loss
 
-agent_001 represents the quiet strength of consistency. Through 2 interactions, they maintained their core values, adapting without losing their essential self. Their 0.0% cooperation rate reflects not dramatic change, but the power of steady principles in an uncertain world.
+agent_001 participated in 4 social interactions. They chose pure defection, scoring 7.0 points through strategic self-protection. These experiences made them more loss-averse (sensitivity: 1.52). Their trust in others diminished to 0.36. 
 
-**Key Moments:**
-- *Withdrawal From Trust*: The decision to protect oneself by avoiding vulnerability.
+**Key Insights:**
+- Adopted pure defection strategy for self-protection
+- Developed increased sensitivity to losses through experience
 
 ---
 
