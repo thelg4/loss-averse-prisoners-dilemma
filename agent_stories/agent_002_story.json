@@ -1,0 +1,25 @@
+{
+  "agent_id": "agent_002",
+  "story_title": "agent_002: The Strategic Exploiter",
+  "psychological_arc": {
+    "arc_type": "strategic_pragmatist",
+    "arc_description": "Chose self-protection and achieved success"
+  },
+  "story_summary": "agent_002 participated in 14 social interactions. They chose pure defection, scoring 61.0 points through strategic self-protection. Their trust in others diminished to 0.00. ",
+  "narrative_themes": [
+    "protective_isolation"
+  ],
+  "key_insights": [
+    "Adopted pure defection strategy for self-protection"
+  ],
+  "character_development": {
+    "trust_journey": {
+      "final_level": 0.0,
+      "direction": "low"
+    },
+    "loss_sensitivity_journey": {
+      "final_level": 0.5340492337234977,
+      "direction": "normal"
+    }
+  }
+}

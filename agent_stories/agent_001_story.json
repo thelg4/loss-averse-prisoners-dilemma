@@ -2,10 +2,10 @@
   "agent_id": "agent_001",
   "story_title": "agent_001: The Strategic Exploiter",
   "psychological_arc": {
-    "arc_type": "strategic_pragmatist",
-    "arc_description": "Chose self-protection and achieved success"
+    "arc_type": "steady_character",
+    "arc_description": "Maintained consistent approach throughout interactions"
   },
-  "story_summary": "agent_001 participated in 4 social interactions. They chose pure defection, scoring 7.0 points through strategic self-protection. These experiences made them more loss-averse (sensitivity: 1.52). Their trust in others diminished to 0.36. ",
+  "story_summary": "agent_001 participated in 20 social interactions. They chose pure defection, scoring 25.0 points through strategic self-protection. These experiences made them more loss-averse (sensitivity: 2.28). Their trust in others diminished to 0.00. ",
   "narrative_themes": [
     "protective_isolation",
     "fear_of_loss"
@@ -16,11 +16,11 @@
   ],
   "character_development": {
     "trust_journey": {
-      "final_level": 0.36418392141270955,
+      "final_level": 0.0,
       "direction": "low"
     },
     "loss_sensitivity_journey": {
-      "final_level": 1.5223910185344267,
+      "final_level": 2.278726498104716,
       "direction": "increased"
     }
   }

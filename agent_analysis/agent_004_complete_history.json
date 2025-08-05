@@ -1,36 +1,271 @@
 {
   "agent_id": "agent_004",
   "agent_type": "emergent_bias",
-  "final_psychological_profile": {},
-  "total_score": 0.0,
-  "recovery_progress": 1.0,
-  "complete_reasoning_chain": [],
-  "all_memories": [],
+  "total_score": 29.0,
+  "recovery_progress": 0.20395806047756282,
+  "complete_reasoning_chain": [
+    {
+      "step_type": "trust_adjustment",
+      "content": "Trust level adjusted from 0.000 to 0.000 (\u0394-0.031)",
+      "confidence": 0.85,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Trust change based on recent interactions"
+    },
+    {
+      "step_type": "narrative_update",
+      "content": "Updated internal narrative: I keep getting hurt when I try to trust others. Losses feel so much more painful than gains feel good. I've learned to be very careful about who I trust. Things haven't been going well for me lately. I carry the weight of many difficult experiences.",
+      "confidence": 0.7,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Narrative reflects accumulated experiences"
+    },
+    {
+      "step_type": "recovery_assessment",
+      "content": "Recovery progress: 18.78%",
+      "confidence": 0.75,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Tracking psychological healing over time"
+    },
+    {
+      "step_type": "outcome_processing",
+      "content": "Processed mutual_defection outcome: payoff=1.0, psychological_impact=-0.80",
+      "confidence": 0.9,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Outcome type: mutual_defection"
+    },
+    {
+      "step_type": "trust_adjustment",
+      "content": "Trust level adjusted from 0.000 to 0.000 (\u0394-0.016)",
+      "confidence": 0.85,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Trust change based on recent interactions"
+    },
+    {
+      "step_type": "narrative_update",
+      "content": "Updated internal narrative: I keep getting hurt when I try to trust others. Losses feel so much more painful than gains feel good. I've learned to be very careful about who I trust. Things haven't been going well for me lately. I carry the weight of many difficult experiences.",
+      "confidence": 0.7,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Narrative reflects accumulated experiences"
+    },
+    {
+      "step_type": "recovery_assessment",
+      "content": "Recovery progress: 19.58%",
+      "confidence": 0.75,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Tracking psychological healing over time"
+    },
+    {
+      "step_type": "outcome_processing",
+      "content": "Processed mutual_defection outcome: payoff=1.0, psychological_impact=-0.80",
+      "confidence": 0.9,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Outcome type: mutual_defection"
+    },
+    {
+      "step_type": "narrative_update",
+      "content": "Updated internal narrative: I keep getting hurt when I try to trust others. Losses feel so much more painful than gains feel good. I've learned to be very careful about who I trust. Things haven't been going well for me lately. I carry the weight of many difficult experiences.",
+      "confidence": 0.7,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Narrative reflects accumulated experiences"
+    },
+    {
+      "step_type": "recovery_assessment",
+      "content": "Recovery progress: 20.40%",
+      "confidence": 0.75,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Tracking psychological healing over time"
+    }
+  ],
+  "all_memories": [
+    {
+      "round_number": 21,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 20,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 19,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 18,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 17,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 16,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 15,
+      "my_move": "cooperate",
+      "opponent_move": "defect",
+      "my_payoff": 0.0,
+      "opponent_payoff": 5.0,
+      "emotional_impact": -2.4168602698300212,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 14,
+      "my_move": "cooperate",
+      "opponent_move": "defect",
+      "my_payoff": 0.0,
+      "opponent_payoff": 5.0,
+      "emotional_impact": -3.5568602698300262,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 13,
+      "my_move": "cooperate",
+      "opponent_move": "defect",
+      "my_payoff": 0.0,
+      "opponent_payoff": 5.0,
+      "emotional_impact": -3.5598602698300255,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 12,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 11,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 9,
+      "my_move": "cooperate",
+      "opponent_move": "defect",
+      "my_payoff": 0.0,
+      "opponent_payoff": 5.0,
+      "emotional_impact": -5.956860269830035,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 8,
+      "my_move": "cooperate",
+      "opponent_move": "defect",
+      "my_payoff": 0.0,
+      "opponent_payoff": 5.0,
+      "emotional_impact": -5.839860269830035,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 21,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 22,
+      "my_move": "defect",
+      "opponent_move": "cooperate",
+      "my_payoff": 5.0,
+      "opponent_payoff": 0.0,
+      "emotional_impact": 2.0999999999999996,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 23,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 24,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 25,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    }
+  ],
   "trauma_triggers": [],
   "psychological_observations": [],
-  "decision_history": [],
-  "psychological_evolution": {
-    "final_trust_level": 0.5,
-    "final_loss_sensitivity": 1.0,
-    "final_emotional_state": "unknown",
-    "final_internal_narrative": "",
-    "learned_heuristics": [],
-    "dominant_trait": "balanced",
-    "evolution_events": [],
-    "trauma_count": 0
-  },
   "interaction_summary": {
-    "total_interactions": 0
+    "total_interactions": 18,
+    "cooperations": 5,
+    "defections": 13,
+    "cooperation_rate": 0.2777777777777778,
+    "betrayals_experienced": 5,
+    "mutual_cooperations": 0,
+    "total_payoff": 17.0,
+    "average_payoff": 0.9444444444444444
+  },
+  "psychological_evolution": {
+    "final_trust_level": 0.0,
+    "final_loss_sensitivity": 2.999,
+    "final_emotional_state": "neutral",
+    "final_internal_narrative": "I keep getting hurt when I try to trust others. Losses feel so much more painful than gains feel good. I've learned to be very careful about who I trust. Things haven't been going well for me lately. I carry the weight of many difficult experiences.",
+    "learned_heuristics": [
+      "recovery_is_possible"
+    ],
+    "dominant_trait": "traumatized_paranoid",
+    "evolution_events": [],
+    "trauma_count": 10
   },
   "trauma_analysis": {
-    "trauma_count": 0,
-    "analysis": "No significant traumas recorded"
-  },
-  "learning_progression": {
-    "total_learning_events": 0,
-    "learned_heuristics": [],
-    "learning_timeline": [],
-    "adaptation_rate": 0.1,
-    "learning_effectiveness": 0.0
+    "trauma_count": 10,
+    "trauma_types": {},
+    "analysis": "Experienced 5 betrayals"
   }
 }

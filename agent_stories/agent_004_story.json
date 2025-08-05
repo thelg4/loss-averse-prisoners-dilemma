@@ -1,0 +1,27 @@
+{
+  "agent_id": "agent_004",
+  "story_title": "agent_004: The Cautious Guardian",
+  "psychological_arc": {
+    "arc_type": "wounded_optimist",
+    "arc_description": "Started trusting but learned caution through betrayal"
+  },
+  "story_summary": "agent_004 participated in 18 social interactions. They tried cooperating 27.8% of the time, but were betrayed 5 times. These experiences made them more loss-averse (sensitivity: 3.00). Their trust in others diminished to 0.00. ",
+  "narrative_themes": [
+    "trust_and_betrayal",
+    "fear_of_loss"
+  ],
+  "key_insights": [
+    "Experienced 5 betrayals but kept trying to cooperate",
+    "Developed increased sensitivity to losses through experience"
+  ],
+  "character_development": {
+    "trust_journey": {
+      "final_level": 0.0,
+      "direction": "low"
+    },
+    "loss_sensitivity_journey": {
+      "final_level": 2.999,
+      "direction": "increased"
+    }
+  }
+}

@@ -1,34 +1,32 @@
 {
   "collection_metadata": {
-    "total_agents": 2,
-    "creation_date": "2025-08-04T21:43:53.089186",
+    "total_agents": 8,
+    "creation_date": "2025-08-05T08:11:31.511179",
     "experiment_id": "extracted_from_database"
   },
   "agent_stories": {
     "agent_000": {
       "agent_id": "agent_000",
-      "story_title": "agent_000: The Wounded Idealist",
+      "story_title": "agent_000: The Cautious Guardian",
       "psychological_arc": {
-        "arc_type": "resilient_idealist",
-        "arc_description": "Maintained faith in cooperation despite betrayals"
+        "arc_type": "wounded_optimist",
+        "arc_description": "Started trusting but learned caution through betrayal"
       },
-      "story_summary": "agent_000 participated in 5 social interactions. They tried cooperating 40.0% of the time, but were betrayed 2 times. Remarkably, they maintained high trust (0.73) despite setbacks. ",
+      "story_summary": "agent_000 participated in 20 social interactions. They tried cooperating 15.0% of the time, but were betrayed 3 times. These experiences made them more loss-averse (sensitivity: 1.41). Their trust in others diminished to 0.05. ",
       "narrative_themes": [
-        "trust_and_betrayal",
-        "resilient_optimism"
+        "trust_and_betrayal"
       ],
       "key_insights": [
-        "Experienced 2 betrayals but kept trying to cooperate",
-        "Maintained high trust despite negative experiences"
+        "Experienced 3 betrayals but kept trying to cooperate"
       ],
       "character_development": {
         "trust_journey": {
-          "final_level": 0.7284914891706915,
-          "direction": "high"
+          "final_level": 0.05338263023214452,
+          "direction": "low"
         },
         "loss_sensitivity_journey": {
-          "final_level": 0.9998349492977489,
-          "direction": "normal"
+          "final_level": 1.409803176173299,
+          "direction": "increased"
         }
       }
     },
@@ -36,10 +34,10 @@
       "agent_id": "agent_001",
       "story_title": "agent_001: The Strategic Exploiter",
       "psychological_arc": {
-        "arc_type": "strategic_pragmatist",
-        "arc_description": "Chose self-protection and achieved success"
+        "arc_type": "steady_character",
+        "arc_description": "Maintained consistent approach throughout interactions"
       },
-      "story_summary": "agent_001 participated in 4 social interactions. They chose pure defection, scoring 7.0 points through strategic self-protection. These experiences made them more loss-averse (sensitivity: 1.52). Their trust in others diminished to 0.36. ",
+      "story_summary": "agent_001 participated in 20 social interactions. They chose pure defection, scoring 25.0 points through strategic self-protection. These experiences made them more loss-averse (sensitivity: 2.28). Their trust in others diminished to 0.00. ",
       "narrative_themes": [
         "protective_isolation",
         "fear_of_loss"
@@ -50,11 +48,167 @@
       ],
       "character_development": {
         "trust_journey": {
-          "final_level": 0.36418392141270955,
+          "final_level": 0.0,
           "direction": "low"
         },
         "loss_sensitivity_journey": {
-          "final_level": 1.5223910185344267,
+          "final_level": 2.278726498104716,
+          "direction": "increased"
+        }
+      }
+    },
+    "agent_002": {
+      "agent_id": "agent_002",
+      "story_title": "agent_002: The Strategic Exploiter",
+      "psychological_arc": {
+        "arc_type": "strategic_pragmatist",
+        "arc_description": "Chose self-protection and achieved success"
+      },
+      "story_summary": "agent_002 participated in 14 social interactions. They chose pure defection, scoring 61.0 points through strategic self-protection. Their trust in others diminished to 0.00. ",
+      "narrative_themes": [
+        "protective_isolation"
+      ],
+      "key_insights": [
+        "Adopted pure defection strategy for self-protection"
+      ],
+      "character_development": {
+        "trust_journey": {
+          "final_level": 0.0,
+          "direction": "low"
+        },
+        "loss_sensitivity_journey": {
+          "final_level": 0.5340492337234977,
+          "direction": "normal"
+        }
+      }
+    },
+    "agent_003": {
+      "agent_id": "agent_003",
+      "story_title": "agent_003: The Cautious Guardian",
+      "psychological_arc": {
+        "arc_type": "wounded_optimist",
+        "arc_description": "Started trusting but learned caution through betrayal"
+      },
+      "story_summary": "agent_003 participated in 20 social interactions. They tried cooperating 10.0% of the time, but were betrayed 2 times. These experiences made them more loss-averse (sensitivity: 1.59). Their trust in others diminished to 0.00. ",
+      "narrative_themes": [
+        "trust_and_betrayal",
+        "fear_of_loss"
+      ],
+      "key_insights": [
+        "Experienced 2 betrayals but kept trying to cooperate",
+        "Developed increased sensitivity to losses through experience"
+      ],
+      "character_development": {
+        "trust_journey": {
+          "final_level": 0.0,
+          "direction": "low"
+        },
+        "loss_sensitivity_journey": {
+          "final_level": 1.585986010748713,
+          "direction": "increased"
+        }
+      }
+    },
+    "agent_004": {
+      "agent_id": "agent_004",
+      "story_title": "agent_004: The Cautious Guardian",
+      "psychological_arc": {
+        "arc_type": "wounded_optimist",
+        "arc_description": "Started trusting but learned caution through betrayal"
+      },
+      "story_summary": "agent_004 participated in 18 social interactions. They tried cooperating 27.8% of the time, but were betrayed 5 times. These experiences made them more loss-averse (sensitivity: 3.00). Their trust in others diminished to 0.00. ",
+      "narrative_themes": [
+        "trust_and_betrayal",
+        "fear_of_loss"
+      ],
+      "key_insights": [
+        "Experienced 5 betrayals but kept trying to cooperate",
+        "Developed increased sensitivity to losses through experience"
+      ],
+      "character_development": {
+        "trust_journey": {
+          "final_level": 0.0,
+          "direction": "low"
+        },
+        "loss_sensitivity_journey": {
+          "final_level": 2.999,
+          "direction": "increased"
+        }
+      }
+    },
+    "agent_005": {
+      "agent_id": "agent_005",
+      "story_title": "agent_005: The Cautious Guardian",
+      "psychological_arc": {
+        "arc_type": "steady_character",
+        "arc_description": "Maintained consistent approach throughout interactions"
+      },
+      "story_summary": "agent_005 participated in 20 social interactions. They tried cooperating 5.0% of the time, but were betrayed 1 times. Their trust in others diminished to 0.00. ",
+      "narrative_themes": [
+        "trust_and_betrayal"
+      ],
+      "key_insights": [
+        "Experienced 1 betrayals but kept trying to cooperate"
+      ],
+      "character_development": {
+        "trust_journey": {
+          "final_level": 0.0,
+          "direction": "low"
+        },
+        "loss_sensitivity_journey": {
+          "final_level": 1.2997806480377565,
+          "direction": "normal"
+        }
+      }
+    },
+    "agent_006": {
+      "agent_id": "agent_006",
+      "story_title": "agent_006: The Cautious Guardian",
+      "psychological_arc": {
+        "arc_type": "steady_character",
+        "arc_description": "Maintained consistent approach throughout interactions"
+      },
+      "story_summary": "agent_006 participated in 20 social interactions. They tried cooperating 5.0% of the time, but were betrayed 1 times. Their trust in others diminished to 0.00. ",
+      "narrative_themes": [
+        "trust_and_betrayal"
+      ],
+      "key_insights": [
+        "Experienced 1 betrayals but kept trying to cooperate"
+      ],
+      "character_development": {
+        "trust_journey": {
+          "final_level": 0.0,
+          "direction": "low"
+        },
+        "loss_sensitivity_journey": {
+          "final_level": 0.8854206170029997,
+          "direction": "normal"
+        }
+      }
+    },
+    "agent_007": {
+      "agent_id": "agent_007",
+      "story_title": "agent_007: The Cautious Guardian",
+      "psychological_arc": {
+        "arc_type": "wounded_optimist",
+        "arc_description": "Started trusting but learned caution through betrayal"
+      },
+      "story_summary": "agent_007 participated in 12 social interactions. They tried cooperating 16.7% of the time, but were betrayed 2 times. These experiences made them more loss-averse (sensitivity: 2.01). Their trust in others diminished to 0.04. ",
+      "narrative_themes": [
+        "trust_and_betrayal",
+        "fear_of_loss"
+      ],
+      "key_insights": [
+        "Experienced 2 betrayals but kept trying to cooperate",
+        "Developed increased sensitivity to losses through experience"
+      ],
+      "character_development": {
+        "trust_journey": {
+          "final_level": 0.03873795512339974,
+          "direction": "low"
+        },
+        "loss_sensitivity_journey": {
+          "final_level": 2.0078442355255155,
           "direction": "increased"
         }
       }

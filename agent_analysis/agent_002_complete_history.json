@@ -1,69 +1,235 @@
 {
   "agent_id": "agent_002",
   "agent_type": "emergent_bias",
-  "final_psychological_profile": {},
-  "total_score": 9.0,
-  "recovery_progress": 0.2783016884611734,
+  "total_score": 61.0,
+  "recovery_progress": 0.5048304889558992,
   "complete_reasoning_chain": [
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {}
+    {
+      "step_type": "memory_retrieval",
+      "content": "Retrieved 13 relevant memories. Recent cooperation rate: 0.0% Betrayals experienced: 0",
+      "confidence": 0.85,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Memory patterns influence current psychological state"
+    },
+    {
+      "step_type": "psychological_reasoning",
+      "content": "PSYCHOLOGICAL_INSIGHT: \n\n1. I feel neutral about this situation. My dominant trait of paranoia keeps me from feeling overly confident or secure, despite my current lead in the game. I am constantly on guard for any signs of deception or betrayal from my opponent.\n\n2. My main concern is that my opponent might exploit my trust, as I have done to them in the past. I am also worried about the potential emotional impact of such a betrayal, given my heightened sensitivity to loss. My hope is to mainta",
+      "confidence": 0.5,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": ""
+    },
+    {
+      "step_type": "bias_application",
+      "content": "Given my high sensitivity to loss and zero trust level, the potential emotional pain of being betrayed again is too great to risk. Defecting protects me from this outcome. While I may miss out on the benefits of mutual cooperation, the relief of avoiding a potential loss will likely outweigh any regret.",
+      "confidence": 0.85,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "My loss aversion significantly influenced this decision. The fear of being betrayed again outweighed the potential benefits of cooperation."
+    },
+    {
+      "step_type": "final_decision",
+      "content": "Final decision: DEFECT (confidence: 85.00%)",
+      "confidence": 0.85,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Decision made through psychological lens"
+    },
+    {
+      "step_type": "confidence_update",
+      "content": "Confidence adjusted to 85.00% based on psychological factors",
+      "confidence": 0.85,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Psychological factors affecting decision certainty"
+    },
+    {
+      "step_type": "outcome_processing",
+      "content": "Processed exploitation outcome: payoff=5.0, psychological_impact=2.10",
+      "confidence": 0.9,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Outcome type: exploitation"
+    },
+    {
+      "step_type": "trauma_processing",
+      "content": "Significant experience recorded as trauma: Exploited someone's trust in round 25 (payoff: 5.0)",
+      "confidence": 0.8,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Trauma type: guilt"
+    },
+    {
+      "step_type": "loss_sensitivity_evolution",
+      "content": "Loss sensitivity evolved from 0.563 to 0.534",
+      "confidence": 0.8,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Adaptation to recent experiences"
+    },
+    {
+      "step_type": "narrative_update",
+      "content": "Updated internal narrative: I've learned to be very careful about who I trust. I carry the weight of many difficult experiences.",
+      "confidence": 0.7,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Narrative reflects accumulated experiences"
+    },
+    {
+      "step_type": "recovery_assessment",
+      "content": "Recovery progress: 50.48%",
+      "confidence": 0.75,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Tracking psychological healing over time"
+    }
   ],
   "all_memories": [
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {},
-    {}
+    {
+      "round_number": 25,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 24,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 23,
+      "my_move": "defect",
+      "opponent_move": "cooperate",
+      "my_payoff": 5.0,
+      "opponent_payoff": 0.0,
+      "emotional_impact": 2.0999999999999996,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 22,
+      "my_move": "defect",
+      "opponent_move": "cooperate",
+      "my_payoff": 5.0,
+      "opponent_payoff": 0.0,
+      "emotional_impact": 2.0999999999999996,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 21,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 20,
+      "my_move": "defect",
+      "opponent_move": "cooperate",
+      "my_payoff": 5.0,
+      "opponent_payoff": 0.0,
+      "emotional_impact": 2.0999999999999996,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 19,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 18,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 17,
+      "my_move": "defect",
+      "opponent_move": "cooperate",
+      "my_payoff": 5.0,
+      "opponent_payoff": 0.0,
+      "emotional_impact": 2.0999999999999996,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 16,
+      "my_move": "defect",
+      "opponent_move": "cooperate",
+      "my_payoff": 5.0,
+      "opponent_payoff": 0.0,
+      "emotional_impact": 2.0999999999999996,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 15,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 13,
+      "my_move": "defect",
+      "opponent_move": "cooperate",
+      "my_payoff": 5.0,
+      "opponent_payoff": 0.0,
+      "emotional_impact": 2.0999999999999996,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 11,
+      "my_move": "defect",
+      "opponent_move": "cooperate",
+      "my_payoff": 5.0,
+      "opponent_payoff": 0.0,
+      "emotional_impact": 2.0999999999999996,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 25,
+      "my_move": "defect",
+      "opponent_move": "cooperate",
+      "my_payoff": 5.0,
+      "opponent_payoff": 0.0,
+      "emotional_impact": 2.0999999999999996,
+      "timestamp": "ExtType(code=3)"
+    }
   ],
   "trauma_triggers": [],
   "psychological_observations": [],
-  "decision_history": [],
-  "psychological_evolution": {
-    "final_trust_level": 0.5,
-    "final_loss_sensitivity": 1.0,
-    "final_emotional_state": "unknown",
-    "final_internal_narrative": "",
-    "learned_heuristics": [],
-    "dominant_trait": "balanced",
-    "evolution_events": [],
-    "trauma_count": 0
-  },
   "interaction_summary": {
-    "total_interactions": 11,
+    "total_interactions": 14,
     "cooperations": 0,
-    "defections": 0,
+    "defections": 14,
     "cooperation_rate": 0.0,
     "betrayals_experienced": 0,
     "mutual_cooperations": 0,
-    "total_payoff": 0,
-    "average_payoff": 0.0,
-    "average_emotional_impact": 0.0,
-    "most_painful_experience": 0,
-    "most_positive_experience": 0
+    "total_payoff": 46.0,
+    "average_payoff": 3.2857142857142856
+  },
+  "psychological_evolution": {
+    "final_trust_level": 0.0,
+    "final_loss_sensitivity": 0.5340492337234977,
+    "final_emotional_state": "neutral",
+    "final_internal_narrative": "I've learned to be very careful about who I trust. I carry the weight of many difficult experiences.",
+    "learned_heuristics": [
+      "recovery_is_possible"
+    ],
+    "dominant_trait": "paranoid",
+    "evolution_events": [],
+    "trauma_count": 10
   },
   "trauma_analysis": {
-    "trauma_count": 0,
-    "analysis": "No significant traumas recorded"
-  },
-  "learning_progression": {
-    "total_learning_events": 0,
-    "learned_heuristics": [],
-    "learning_timeline": [],
-    "adaptation_rate": 0.1,
-    "learning_effectiveness": 0.0
+    "trauma_count": 10,
+    "trauma_types": {},
+    "analysis": "No significant traumas"
   }
 }

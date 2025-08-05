@@ -1,0 +1,25 @@
+{
+  "agent_id": "agent_006",
+  "story_title": "agent_006: The Cautious Guardian",
+  "psychological_arc": {
+    "arc_type": "steady_character",
+    "arc_description": "Maintained consistent approach throughout interactions"
+  },
+  "story_summary": "agent_006 participated in 20 social interactions. They tried cooperating 5.0% of the time, but were betrayed 1 times. Their trust in others diminished to 0.00. ",
+  "narrative_themes": [
+    "trust_and_betrayal"
+  ],
+  "key_insights": [
+    "Experienced 1 betrayals but kept trying to cooperate"
+  ],
+  "character_development": {
+    "trust_journey": {
+      "final_level": 0.0,
+      "direction": "low"
+    },
+    "loss_sensitivity_journey": {
+      "final_level": 0.8854206170029997,
+      "direction": "normal"
+    }
+  }
+}

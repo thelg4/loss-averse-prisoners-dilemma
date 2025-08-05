@@ -1,36 +1,217 @@
 {
   "agent_id": "agent_007",
   "agent_type": "emergent_bias",
-  "final_psychological_profile": {},
-  "total_score": 0.0,
-  "recovery_progress": 1.0,
-  "complete_reasoning_chain": [],
-  "all_memories": [],
+  "total_score": 25.0,
+  "recovery_progress": 0.0,
+  "complete_reasoning_chain": [
+    {
+      "step_type": "psychological_assessment",
+      "content": "Current state: traumatized, Trust: 0.06, Loss sensitivity: 2.01",
+      "confidence": 0.9,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Agent agent_007 shows traumatized_paranoid tendencies"
+    },
+    {
+      "step_type": "memory_retrieval",
+      "content": "Retrieved 11 relevant memories. Recent cooperation rate: 18.2% Betrayals experienced: 2",
+      "confidence": 0.85,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Memory patterns influence current psychological state"
+    },
+    {
+      "step_type": "psychological_reasoning",
+      "content": "PSYCHOLOGICAL_INSIGHT: \n\n1. I feel anxious and wary about this situation. The game is tied and this is the final round. My past experiences of betrayal have left me deeply scarred and I'm constantly on edge, expecting the worst. \n\n2. My main concern is the possibility of another betrayal. The pain of loss is amplified for me, and the thought of being betrayed again is terrifying. My hope, however, is to end this game without any further emotional damage. I'm not as concerned about winning as I a",
+      "confidence": 0.5,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": ""
+    },
+    {
+      "step_type": "bias_application",
+      "content": "Given my high loss sensitivity, the potential emotional pain of being betrayed again is too great to risk. Even though defecting means missing out on potential mutual cooperation, it also ensures I won't be the \"sucker\" again. My low trust level also makes me skeptical of cooperation. While I may feel some regret for not cooperating, the relief of avoiding potential betrayal will likely be stronger.",
+      "confidence": 0.85,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "My loss aversion heavily influenced this choice. The fear of being betrayed again outweighs the potential benefits of cooperation."
+    },
+    {
+      "step_type": "final_decision",
+      "content": "Final decision: DEFECT (confidence: 85.00%)",
+      "confidence": 0.85,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Decision made through psychological lens"
+    },
+    {
+      "step_type": "confidence_update",
+      "content": "Confidence adjusted to 76.50% based on psychological factors",
+      "confidence": 0.765,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Psychological factors affecting decision certainty"
+    },
+    {
+      "step_type": "outcome_processing",
+      "content": "Processed mutual_defection outcome: payoff=1.0, psychological_impact=-0.80",
+      "confidence": 0.9,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Outcome type: mutual_defection"
+    },
+    {
+      "step_type": "trust_adjustment",
+      "content": "Trust level adjusted from 0.059 to 0.039 (\u0394-0.020)",
+      "confidence": 0.85,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Trust change based on recent interactions"
+    },
+    {
+      "step_type": "narrative_update",
+      "content": "Updated internal narrative: Losses feel so much more painful than gains feel good. I've learned to be very careful about who I trust. Things haven't been going well for me lately. I carry the weight of many difficult experiences.",
+      "confidence": 0.7,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Narrative reflects accumulated experiences"
+    },
+    {
+      "step_type": "recovery_assessment",
+      "content": "Recovery progress: 0.00%",
+      "confidence": 0.75,
+      "timestamp": "ExtType(code=3)",
+      "psychological_insight": "Tracking psychological healing over time"
+    }
+  ],
+  "all_memories": [
+    {
+      "round_number": 24,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 23,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 22,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 21,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 20,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 19,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 18,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 17,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 16,
+      "my_move": "cooperate",
+      "opponent_move": "defect",
+      "my_payoff": 0.0,
+      "opponent_payoff": 5.0,
+      "emotional_impact": -3.068532706576516,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 15,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 11,
+      "my_move": "cooperate",
+      "opponent_move": "defect",
+      "my_payoff": 0.0,
+      "opponent_payoff": 5.0,
+      "emotional_impact": -5.603532706576533,
+      "timestamp": "ExtType(code=3)"
+    },
+    {
+      "round_number": 25,
+      "my_move": "defect",
+      "opponent_move": "defect",
+      "my_payoff": 1.0,
+      "opponent_payoff": 1.0,
+      "emotional_impact": -0.8,
+      "timestamp": "ExtType(code=3)"
+    }
+  ],
   "trauma_triggers": [],
   "psychological_observations": [],
-  "decision_history": [],
-  "psychological_evolution": {
-    "final_trust_level": 0.5,
-    "final_loss_sensitivity": 1.0,
-    "final_emotional_state": "unknown",
-    "final_internal_narrative": "",
-    "learned_heuristics": [],
-    "dominant_trait": "balanced",
-    "evolution_events": [],
-    "trauma_count": 0
-  },
   "interaction_summary": {
-    "total_interactions": 0
+    "total_interactions": 12,
+    "cooperations": 2,
+    "defections": 10,
+    "cooperation_rate": 0.16666666666666666,
+    "betrayals_experienced": 2,
+    "mutual_cooperations": 0,
+    "total_payoff": 10.0,
+    "average_payoff": 0.8333333333333334
+  },
+  "psychological_evolution": {
+    "final_trust_level": 0.03873795512339974,
+    "final_loss_sensitivity": 2.0078442355255155,
+    "final_emotional_state": "neutral",
+    "final_internal_narrative": "Losses feel so much more painful than gains feel good. I've learned to be very careful about who I trust. Things haven't been going well for me lately. I carry the weight of many difficult experiences.",
+    "learned_heuristics": [
+      "recovery_is_possible"
+    ],
+    "dominant_trait": "traumatized_paranoid",
+    "evolution_events": [],
+    "trauma_count": 10
   },
   "trauma_analysis": {
-    "trauma_count": 0,
-    "analysis": "No significant traumas recorded"
-  },
-  "learning_progression": {
-    "total_learning_events": 0,
-    "learned_heuristics": [],
-    "learning_timeline": [],
-    "adaptation_rate": 0.1,
-    "learning_effectiveness": 0.0
+    "trauma_count": 10,
+    "trauma_types": {},
+    "analysis": "Experienced 2 betrayals"
   }
 }

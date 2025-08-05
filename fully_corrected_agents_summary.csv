@@ -1,3 +1,9 @@
 agent_id,agent_type,total_score,trust_level,loss_sensitivity,emotional_state,total_interactions,cooperations,defections,cooperation_rate,betrayals_experienced,total_payoff,average_payoff,reasoning_steps
-agent_000,emergent_bias,2.0,0.7284914891706915,0.9998349492977489,neutral,5,2,3,0.4,2,3.0,0.6,10
-agent_001,emergent_bias,7.0,0.36418392141270955,1.5223910185344267,neutral,4,0,4,0.0,0,12.0,3.0,10
+agent_000,emergent_bias,24.0,0.05338263023214452,1.409803176173299,neutral,20,3,17,0.15,3,29.0,1.45,10
+agent_001,emergent_bias,25.0,0.0,2.278726498104716,neutral,20,0,20,0.0,0,24.0,1.2,10
+agent_002,emergent_bias,61.0,0.0,0.5340492337234977,neutral,14,0,14,0.0,0,46.0,3.2857142857142856,10
+agent_003,emergent_bias,25.0,0.0,1.585986010748713,neutral,20,2,18,0.1,2,22.0,1.1,10
+agent_004,emergent_bias,29.0,0.0,2.999,neutral,18,5,13,0.2777777777777778,5,17.0,0.9444444444444444,10
+agent_005,emergent_bias,25.0,0.0,1.2997806480377565,neutral,20,1,19,0.05,1,19.0,0.95,10
+agent_006,emergent_bias,33.0,0.0,0.8854206170029997,neutral,20,1,19,0.05,1,31.0,1.55,10
+agent_007,emergent_bias,25.0,0.03873795512339974,2.0078442355255155,neutral,12,2,10,0.16666666666666666,2,10.0,0.8333333333333334,10

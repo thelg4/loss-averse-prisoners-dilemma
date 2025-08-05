@@ -1,30 +1,30 @@
 {
   "experiment_summary": {
-    "total_agents": 2,
-    "analysis_timestamp": "2025-08-04T20:46:41.120217"
+    "total_agents": 8,
+    "analysis_timestamp": "2025-08-05T08:18:17.676941"
   },
   "population_psychology": {
-    "average_trust_level": 0.5,
-    "average_loss_sensitivity": 1.0,
+    "average_trust_level": 0.011515073169443033,
+    "average_loss_sensitivity": 1.6250763024145622,
     "trust_level_range": [
-      0.5,
-      0.5
+      0.0,
+      0.05338263023214452
     ],
     "loss_sensitivity_range": [
-      1.0,
-      1.0
+      0.5340492337234977,
+      2.999
     ]
   },
   "behavioral_patterns": {
-    "average_cooperation_rate": 0.0,
+    "average_cooperation_rate": 0.09930555555555556,
     "cooperation_rate_range": [
       0.0,
-      0.0
+      0.2777777777777778
     ],
-    "agents_with_trauma": 0,
-    "average_trauma_count": 0.0
+    "agents_with_trauma": 8,
+    "average_trauma_count": 10.0
   },
   "agent_types": {
-    "emergent_bias": 2
+    "emergent_bias": 8
   }
 }
