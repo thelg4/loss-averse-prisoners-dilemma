@@ -13,7 +13,7 @@ import logging
 class PsychologicalLLMClient:
     """LLM client specialized for psychological reasoning"""
     
-    def __init__(self, provider: str = "openai", model: str = "gpt-4"):
+    def __init__(self, provider: str = "openai", model: str = "gpt-4o-mini"):
         self.logger = logging.getLogger(__name__)
         
         if provider == "openai":
