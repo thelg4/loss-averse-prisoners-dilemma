@@ -1,0 +1,155 @@
+{
+  "analysis_date": "2025-08-11T00:17:13.432792",
+  "tokens_per_decision": {
+    "input": 752,
+    "output": 350,
+    "total": 1102
+  },
+  "original_experiment": {
+    "decisions": 3600,
+    "costs": {
+      "gpt-4": {
+        "input_cost": 81.216,
+        "output_cost": 75.6,
+        "total_cost": 156.81599999999997,
+        "cost_per_decision": 0.043559999999999995
+      },
+      "gpt-4-turbo": {
+        "input_cost": 27.072,
+        "output_cost": 37.8,
+        "total_cost": 64.872,
+        "cost_per_decision": 0.01802
+      },
+      "gpt-4o": {
+        "input_cost": 13.536,
+        "output_cost": 18.9,
+        "total_cost": 32.436,
+        "cost_per_decision": 0.00901
+      },
+      "gpt-4o-mini": {
+        "input_cost": 0.40607999999999994,
+        "output_cost": 0.7559999999999999,
+        "total_cost": 1.1620799999999998,
+        "cost_per_decision": 0.00032279999999999993
+      }
+    }
+  },
+  "scaling_scenarios": {
+    "Minimal Article (15 agents, 8 gens)": {
+      "decisions": 28800,
+      "costs": {
+        "gpt-4": {
+          "input_cost": 649.728,
+          "output_cost": 604.8,
+          "total_cost": 1254.5279999999998,
+          "cost_per_decision": 0.043559999999999995
+        },
+        "gpt-4-turbo": {
+          "input_cost": 216.576,
+          "output_cost": 302.4,
+          "total_cost": 518.976,
+          "cost_per_decision": 0.01802
+        },
+        "gpt-4o": {
+          "input_cost": 108.288,
+          "output_cost": 151.2,
+          "total_cost": 259.488,
+          "cost_per_decision": 0.00901
+        },
+        "gpt-4o-mini": {
+          "input_cost": 3.2486399999999995,
+          "output_cost": 6.047999999999999,
+          "total_cost": 9.296639999999998,
+          "cost_per_decision": 0.00032279999999999993
+        }
+      }
+    },
+    "Good Article (20 agents, 10 gens)": {
+      "decisions": 80000,
+      "costs": {
+        "gpt-4": {
+          "input_cost": 1804.8,
+          "output_cost": 1680.0,
+          "total_cost": 3484.8,
+          "cost_per_decision": 0.04356
+        },
+        "gpt-4-turbo": {
+          "input_cost": 601.6,
+          "output_cost": 840.0,
+          "total_cost": 1441.6,
+          "cost_per_decision": 0.018019999999999998
+        },
+        "gpt-4o": {
+          "input_cost": 300.8,
+          "output_cost": 420.0,
+          "total_cost": 720.8,
+          "cost_per_decision": 0.009009999999999999
+        },
+        "gpt-4o-mini": {
+          "input_cost": 9.024,
+          "output_cost": 16.799999999999997,
+          "total_cost": 25.823999999999998,
+          "cost_per_decision": 0.0003228
+        }
+      }
+    },
+    "Great Article (25 agents, 12 gens)": {
+      "decisions": 180000,
+      "costs": {
+        "gpt-4": {
+          "input_cost": 4060.7999999999997,
+          "output_cost": 3780.0,
+          "total_cost": 7840.799999999999,
+          "cost_per_decision": 0.043559999999999995
+        },
+        "gpt-4-turbo": {
+          "input_cost": 1353.6000000000001,
+          "output_cost": 1890.0,
+          "total_cost": 3243.6000000000004,
+          "cost_per_decision": 0.01802
+        },
+        "gpt-4o": {
+          "input_cost": 676.8000000000001,
+          "output_cost": 945.0,
+          "total_cost": 1621.8000000000002,
+          "cost_per_decision": 0.00901
+        },
+        "gpt-4o-mini": {
+          "input_cost": 20.304,
+          "output_cost": 37.8,
+          "total_cost": 58.104,
+          "cost_per_decision": 0.0003228
+        }
+      }
+    },
+    "Publication Quality (30 agents, 15 gens)": {
+      "decisions": 360000,
+      "costs": {
+        "gpt-4": {
+          "input_cost": 8121.599999999999,
+          "output_cost": 7560.0,
+          "total_cost": 15681.599999999999,
+          "cost_per_decision": 0.043559999999999995
+        },
+        "gpt-4-turbo": {
+          "input_cost": 2707.2000000000003,
+          "output_cost": 3780.0,
+          "total_cost": 6487.200000000001,
+          "cost_per_decision": 0.01802
+        },
+        "gpt-4o": {
+          "input_cost": 1353.6000000000001,
+          "output_cost": 1890.0,
+          "total_cost": 3243.6000000000004,
+          "cost_per_decision": 0.00901
+        },
+        "gpt-4o-mini": {
+          "input_cost": 40.608,
+          "output_cost": 75.6,
+          "total_cost": 116.208,
+          "cost_per_decision": 0.0003228
+        }
+      }
+    }
+  }
+}

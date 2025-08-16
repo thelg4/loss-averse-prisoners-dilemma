@@ -1,0 +1,42 @@
+# config/thought_test.yaml - ULTRA MINIMAL for thought logging testing
+experiments:
+  thought_test:
+    name: "Thought Logging Test - Ultra Minimal"
+    
+    baseline_experiment:
+      agents:
+        - type: "rational"
+          count: 1
+        - type: "loss_averse"
+          count: 1
+          loss_coefficient: 2.25
+      tournaments:
+        rounds_per_match: 3     # Just 3 rounds!
+        replications: 1         # Just 1 replication
+    
+    emergent_experiment:
+      population_size: 2        # Just 2 agents
+      generations: 1            # Just 1 generation  
+      interactions_per_generation: 1  # Just 1 interaction
+      rounds_per_interaction: 5       # 5 rounds to see some thought evolution
+      initial_psychology: "neutral"
+    
+    contagion_experiment:
+      population_size: 2
+      seed_agents:
+        - type: "paranoid"
+          count: 1
+          trust_level: 0.1
+          loss_sensitivity: 3.0
+      
+      contagion_parameters:
+        base_transmission_rate: 0.1
+        influence_decay: 0.95
+        trait_mutation_rate: 0.05
+
+  llm_configuration:
+    primary_provider: "openai"
+    model: "gpt-4o-mini"  # Use cheapest model
+    temperature: 0.1
+    max_tokens: 150       # Keep responses short
+    fallback_provider: "anthropic"
